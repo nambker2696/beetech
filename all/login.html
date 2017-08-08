@@ -1,0 +1,43 @@
+<section id="login">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="panel panel-default">
+          <div class="panel-heading">Login</div> 
+          <div class="panel-body">
+            <form method="POST" action="http://laravel-mail.dovanbao.com/login" class="form-horizontal">
+              <input type="hidden" name="_token" value="FENTf5KCP5ZuflvrllvqLj844Nbh4kkXeoE9iemE"> 
+              <div class="form-group">
+                <label for="email" class="col-md-4 control-label">Tên Người Dùng</label> 
+                <div class="col-md-6">
+                  <input id="email" type="email" name="email" value="" required="required" autofocus="autofocus" class="form-control">
+                </div>
+              </div> 
+              <div class="form-group">
+                <label for="password" class="col-md-4 control-label">Mật Khẩu</label> 
+                <div class="col-md-6">
+                  <input id="password" type="password" name="password" required="required" class="form-control">
+                </div>
+              </div> 
+              <div class="form-group">
+                <div class="col-md-6 col-md-offset-4">
+                  <div class="checkbox">
+                    <label><input type="checkbox" name="remember"> Remember Me</label>
+                  </div>
+                </div>
+              </div> 
+              <div class="form-group">
+                <div class="col-md-8 col-md-offset-4">
+                  <button type="submit" class="btn btn-primary">Login</button> 
+                  <a href="#" class="btn btn-link">Forgot Your Password?</a>
+                  <a href="#" class="btn btn-link">Register</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
