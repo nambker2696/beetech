@@ -1,24 +1,49 @@
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <link rel="icon" type="image/x-icon" href="img/coffee/favicon.png" />
-    <title>Support &#8211; Hot Coffee</title>
+<header id="header" class="">
+  <div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="logo" id="logo-beetech">
+                <img src="img/logo_beetech.png" > 
+            </div>  
+        </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4" id="colume-search"> 
+            <div class="ui icon input" id="seach-bar">
+                <input type="text" placeholder="Search...">
+                <i class="search icon"></i>
+            </div>
+        </div>
+    </div>
 
-    <link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Grand+Hotel|Open+Sans:300,400,600,700,800|Raleway:100,200,300,400,500,600,700,800,900|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i|Ubuntu:300,300i,400,400i,500,500i,700,700i&amp;subset=latin-ext" type='text/css' media='all' >
-    <link rel='stylesheet' href='css/coffee/woocommerce-layout.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='css/coffee/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)' />
-    <link rel='stylesheet' href='css/coffee/woocommerce.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='css/coffee/fontello.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='css/coffee/style.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='css/coffee/core.animation.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='css/coffee/shortcodes.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='css/coffee/plugin.woocommerce.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='css/coffee/skin.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='css/coffee/doc-style.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='css/coffee/responsive.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='css/coffee/skin.responsive.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='css/coffee/comp.min.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='css/coffee/custom.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='css/coffee/core.messages.css' type='text/css' media='all' />
-</head>
+
+  <!-- Static navbar -->
+    <nav class="navbar navbar-default" style="min-height: 50px;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="float: left;">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SẢN PHẨM <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">GIỚI THIỆU VỀ SẢN PHẨM</a></li>
+                            <li><a href="#">THỬ MIỄN PHÍ</a></li>
+                            <li><a href="#">ĐĂNG KÝ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">GIÁ</a></li>
+                    <li><a href="#">BẢN DÙNG THỬ</a></li>
+                    <li><a href="#">CÂU HỎI THƯỜNG GẶP</a></li>
+                    <li><a href="#">Ý KIẾN KHÁCH HÀNG</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+    </nav>
+</div> <!-- /container -->
+</header><!-- /header -->
