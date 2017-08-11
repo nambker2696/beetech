@@ -1,0 +1,97 @@
+.navbar-toggle .icon-bar{
+  color: #fff;
+  background: #fff;
+}
+.nav-bar-login-success {
+  width: 100%;
+}
+.nav-bar-item-4 {
+  width: 25%;
+  text-align: center;
+}
+.content { 
+  display: flex; 
+}
+.center-content { 
+  width: 100%; 
+}
+/*header hien thi thong tin co ban cua thuyen*/
+.header-boat-infor { 
+  margin-bottom: 20px;
+}
+.header-boat { 
+  display: grid; 
+  float: left;
+}
+.header-boat .title {
+  font-weight: bold;
+}
+.booking-btn {
+  float: right;
+}
+.btn-keeping-room, .btn-booking-room {
+  height: 35px;
+  width: 103px;
+  background-color: rgba(251, 243, 191, 1);
+  border: solid rgba(49, 49, 49, 1) 1px;
+  cursor: pointer !important;
+  transition: color 0.4s ease 0s;
+}
+.btn-keeping-room span, .btn-booking-room span {
+  text-align: center;
+  transition: color 0.4s ease 0s;
+  color: #313131;
+  display: inline-block;
+}
+.btn-keeping-room:hover, .btn-booking-room:hover {
+  background-color: rgba(252, 143, 141, 1);
+  border-color: rgba(252, 143, 141, 1);
+}
+.btn-keeping-room:hover > span, .btn-booking-room:hover > span{
+  color: white;
+}
+/* hiển thị bảng*/
+.calendar {
+  border: 1px solid #000;
+  margin-right: 20px;
+  margin-top: 59px;
+}
+.datepicker {
+  width: inherit;
+}
+/*bang hien thi thong tin trong thang*/
+.table-room-infor {
+  width: 100%;
+}
+.th-room-infor {
+  border: solid 1px #000;
+  padding: 5px;
+  text-align: center;
+}
+.td-room-name, .td-room-code {
+  background-color: #6cb888;
+  text-align: center;
+}
+.td-room-infor {
+  border-left: solid 1px #000;
+  border-top: solid 1px #000;
+  padding: 4px;
+}
+.td-available-room {
+  background-color: white;
+}
+.td-keeping-room {
+  background-color: orange;
+}
+.td-booked-room-full-infor {
+  background-color: blue;
+}
+.td-booked-room-lack-infor {
+  background-color: red;
+}
+.td-room-infor:last-child {
+  border-right: solid 1px #000;
+}
+.tr-room-infor:last-child {
+  border-bottom: solid 1px #000;
+}
