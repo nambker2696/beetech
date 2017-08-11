@@ -24,7 +24,7 @@
 	</script>
 </head>
 <body>
-	<?php include('header.php') ?>
+	<?php include('header-logged.php') ?>
 	<!-- end form -->
 	<div class="container" id="search">
 		<div class="ui column centered grid">

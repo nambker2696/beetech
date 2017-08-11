@@ -17,7 +17,7 @@
 	<script src="dist/semantic.min.js"></script>
 </head>
 <body>
-	<?php include('header.php') ?>
+	<?php include('header-logged.php') ?>
 	<!-- form -->
 
 
