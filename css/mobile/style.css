@@ -1,0 +1,36 @@
+
+@media (max-width: 576px) {
+	/*file login*/
+	#seach-bar{
+		display: none;
+	}
+	#logo-beetech{
+		text-align: center;
+	}
+
+	/*file man hinh seach*/
+	
+	#search> .ui{
+		float: left;
+		margin-top: 20px;
+	}
+
+
+	
+}	
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+	#logo-beetech{
+		text-align: center;
+	}
+	#seach-bar{
+		display: none;
+	}
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
