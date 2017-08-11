@@ -15,7 +15,7 @@
   <script src="dist/semantic.min.js"></script>
 </head>
 <body>
-  <?php include('head.php') ?>
+  <?php include('header.php') ?>
     <div class="container">
       <section>
         <div class='pricing pricing-palden'>

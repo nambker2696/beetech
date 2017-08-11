@@ -1,0 +1,36 @@
+.logo-beetech {
+  width: 40px;
+  height: 70px;
+}
+#logo-beetech{
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+#colume-search{
+  text-align: right;
+  margin-top: 30px; 
+}
+#show-search{
+  margin-top: 15px;
+}
+.nav-bar-item {
+  text-align: center;
+}
+.nav-bar-item-link {
+  width: 100%;
+}
+@media screen and (max-width: 576px) {
+  .nav-bar-item {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 576px) {
+  .nav-bar-custom {
+    width: 100%;
+  }
+  .nav-bar-item {
+    width: 20%;
+    text-align: center;
+  }
+}
