@@ -17,7 +17,7 @@
 	<script src="dist/semantic.min.js"></script>
 </head>
 <body>
-	<?php include('head.php') ?>
+	<?php include('header.php') ?>
 	<!-- form -->
 	<div class="container" id="form-login">
 		<div class="row">

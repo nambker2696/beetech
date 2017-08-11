@@ -303,7 +303,7 @@ Image credits: unsplash.com
     cursor: pointer;
     position: absolute;
     top: -5px;
-    left: 31px;
+    left: 60px;
     opacity: 0!important;
     outline: 0;
     z-index: 3;
@@ -313,7 +313,7 @@ Image credits: unsplash.com
 
 
 .input-group input{
-  height: 50px;
+  height: 45px;
 }
 
 #colume-search{
@@ -324,3 +324,18 @@ Image credits: unsplash.com
   margin-left: 30px;      
   padding-top: 30px;
 }
+#input-date-search{
+  max-height: 38px;
+}
+  #datetimepicker1{
+    width: 185px;
+  }
+
+  #checkroom{
+    width: 185px;
+    padding-left: 40px;
+  }
+  #button-search{
+    width: 185px;
+  }
+  

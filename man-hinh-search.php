@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="dist/semantic.min.css">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="http://bsdp-assets.blackcherry.us/1.3.0/datepicker.min.css">
-
+	<link rel="stylesheet" type="text/css" href="css/mobile/style.css">
 
 
 	<script src="js/jquery-1.11.3.js"></script>
@@ -24,42 +24,49 @@
 	</script>
 </head>
 <body>
-	<?php include('head.php') ?>
+	<?php include('header.php') ?>
 	<!-- end form -->
 	<div class="container" id="search">
 		<div class="ui column centered grid">
-			<div class="ui input">
-				<input type="text" placeholder="Nhập tên tàu muốn tìm...">
+			<div class="ui col-md-2">
+				<div class="ui input">
+					<input type="text" placeholder="Nhập tên tàu muốn tìm...">
+				</div>
 			</div>
-			<div class="ui input">
-				<input type="text" placeholder="Nhập tên tours ...">&nbsp;
+			<div class="ui col-md-2">
+				<div class="ui input">
+					<input type="text" placeholder="Nhập tên tours ...">&nbsp;
+				</div>
 			</div>
-			 <!-- <div class='col-sm-2'> -->
-	            <div class="ui col-sm-2">
-	                <div class='input-group date' id='datetimepicker1'>
-	                    <input type='text' class="form-control" value="Ngày khởi hành"/>
-	                    <span class="input-group-addon">
-	                        <span class="glyphicon glyphicon-calendar"></span>
-	                    </span>
-	                </div>
-	            </div>
-	        <!-- </div> -->
+			<!-- <div class='col-md-2'> -->
+			<div class="ui col-md-2">
+				<div class='input-group date' id='datetimepicker1'>
+					<input type='text' class="form-control" value="Ngày khởi hành" id='input-date-search'/>
+					<span class="input-group-addon">
+						<span class="glyphicon glyphicon-calendar"></span>
+					</span>
+				</div>
+			</div>
+			<!-- </div> -->
 
-			
-			<div class="ui input">
-				<input type="text" placeholder="Số phòng muốn đặt ...">
+			<div class="ui col-md-2">
+				<div class="ui input">
+					<input type="text" placeholder="Số phòng muốn đặt ...">
+				</div>
 			</div>
-			<div class="ui checkbox" >
-				<input type="checkbox" id="checkboxinput">
-				<label>Còn phòng</label>
+			<div class="ui col-md-2">			
+				<div class="ui checkbox" id="checkroom">
+					<input type="checkbox" id="checkboxinput">
+					<label>Kiểm tra còn phòng </label>
+				</div>
 			</div>
-			&nbsp;
-
-			<button class="ui button" type="submit">Tìm kiếm</button>
+			<div class="ui col-md-2">
+				<div id="button-search">
+					<button class="ui button" type="submit" >Tìm kiếm</button>
+				</div>
+			</div>
 		</div>
 	</div>
-
-
 
 	<section id="show-search">
 		<div class="ui container column">
@@ -113,8 +120,6 @@
 			</table>
 		</div>
 	</section>
-
 	<?php include('footer.php'); ?>
-
 </body>
 </html>

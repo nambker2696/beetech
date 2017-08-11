@@ -1,12 +1,20 @@
 @media (max-width: 576px) {
+	/*file login*/
 	#seach-bar{
 		display: none;
 	}
 	#logo-beetech{
 		text-align: center;
-
 	}
 
+	/*file man hinh seach*/
+	
+	#search> .ui{
+		float: left;
+	}
+
+
+	
 }
 
 /*// Medium devices (tablets, 768px and up)*/
