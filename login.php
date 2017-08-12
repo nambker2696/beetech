@@ -37,7 +37,6 @@
 								<li><a href="#signup" data-toggle="tab"> Signup </a></li>
 							</ul>
 						</div>
-
 						<!-- form login -->
 						<div class="panel-body">
 							<div class="tab-content">
@@ -96,7 +95,6 @@
 										</div>
 									</div> 
 								</div>
-
 
 								<!-- // form register -->
 								<div id="signup" class="tab-pane fade">
@@ -231,11 +229,16 @@
 					<a href="man-hinh-dang-ki-tau.php" title="">Màn hình đăng kí tàu</a>
 
 				</li>
+				<li>
+					<a href="man-hinh-chon-tau.php">Man hinh chon tau</a>
+				</li>
+				<li><a href="man-hinh-chao-mung.php" title="">Man hinh chao mung</a></li>
 			</ul>
 		</div>
 	</div>
+	
 
-	<!-- end content -->
+	<!-- end form -->
 	<?php include('footer.php'); ?>
 	<script>
 	function myFunctionLogin(){
