@@ -201,8 +201,6 @@
 	</div>
 
 	<!-- end form -->
-
 	<?php include('footer.php'); ?>
-
 </body>
 </html>

@@ -1,6 +1,19 @@
 body {
   padding-bottom: 20px;
 }
+<<<<<<< HEAD
+=======
+
+
+img {
+  height: 100px;
+  width: 60px;
+
+}
+#seach-bar{
+  margin-top: 100px;
+}
+>>>>>>> a5be7a9694c0bafd3938a8fcc11ea1cf675435f0
 #login{
 	margin-top: 50px;
 }
@@ -21,17 +34,17 @@ Image credits: unsplash.com
 /*       Fade Bs-carousel       */
 /********************************/
 .fade-carousel {
-    position: relative;
-    height: 40vh;
+  position: relative;
+  height: 40vh;
 }
 .fade-carousel .carousel-inner .item {
-    height: 40vh;
+  height: 40vh;
 }
 .fade-carousel .carousel-indicators > li {
-    margin: 0 2px;
-    background-color: #f39c12;
-    border-color: #f39c12;
-    opacity: .7;
+  margin: 0 2px;
+  background-color: #f39c12;
+  border-color: #f39c12;
+  opacity: .7;
 }
 .fade-carousel .carousel-indicators > li.active {
   width: 10px;
@@ -43,53 +56,53 @@ Image credits: unsplash.com
 /*          Hero Headers        */
 /********************************/
 .hero {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 3;
-    color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
-      -webkit-transform: translate3d(-50%,-50%,0);
-         -moz-transform: translate3d(-50%,-50%,0);
-          -ms-transform: translate3d(-50%,-50%,0);
-           -o-transform: translate3d(-50%,-50%,0);
-              transform: translate3d(-50%,-50%,0);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+  -webkit-transform: translate3d(-50%,-50%,0);
+  -moz-transform: translate3d(-50%,-50%,0);
+  -ms-transform: translate3d(-50%,-50%,0);
+  -o-transform: translate3d(-50%,-50%,0);
+  transform: translate3d(-50%,-50%,0);
 }
 .hero h1 {
-    font-size: 6em;    
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
+  font-size: 6em;    
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
 
 .fade-carousel .carousel-inner .item .hero {
-    opacity: 0;
-    -webkit-transition: 2s all ease-in-out .1s;
-       -moz-transition: 2s all ease-in-out .1s; 
-        -ms-transition: 2s all ease-in-out .1s; 
-         -o-transition: 2s all ease-in-out .1s; 
-            transition: 2s all ease-in-out .1s; 
+  opacity: 0;
+  -webkit-transition: 2s all ease-in-out .1s;
+  -moz-transition: 2s all ease-in-out .1s; 
+  -ms-transition: 2s all ease-in-out .1s; 
+  -o-transition: 2s all ease-in-out .1s; 
+  transition: 2s all ease-in-out .1s; 
 }
 .fade-carousel .carousel-inner .item.active .hero {
-    opacity: 1;
-    -webkit-transition: 2s all ease-in-out .1s;
-       -moz-transition: 2s all ease-in-out .1s; 
-        -ms-transition: 2s all ease-in-out .1s; 
-         -o-transition: 2s all ease-in-out .1s; 
-            transition: 2s all ease-in-out .1s;    
+  opacity: 1;
+  -webkit-transition: 2s all ease-in-out .1s;
+  -moz-transition: 2s all ease-in-out .1s; 
+  -ms-transition: 2s all ease-in-out .1s; 
+  -o-transition: 2s all ease-in-out .1s; 
+  transition: 2s all ease-in-out .1s;    
 }
 
 /********************************/
 /*            Overlay           */
 /********************************/
 .overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #080d15;
-    opacity: .7;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #080d15;
+  opacity: .7;
 }
 
 /********************************/
@@ -99,11 +112,11 @@ Image credits: unsplash.com
 .btn.btn-hero,
 .btn.btn-hero:hover,
 .btn.btn-hero:focus {
-    color: #f5f5f5;
-    background-color: #1abc9c;
-    border-color: #1abc9c;
-    outline: none;
-    margin: 20px auto;
+  color: #f5f5f5;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+  outline: none;
+  margin: 20px auto;
 }
 
 /********************************/
@@ -285,6 +298,14 @@ Image credits: unsplash.com
   font-size: 1.5em; 
 }
 
+#search{
+  margin-top: 70px;
+  margin-bottom:50px;
+}
+#show-search{
+  margin-top: 100px;
+}
+
 #checkboxinput{
   cursor: pointer;
   position: absolute;
@@ -299,9 +320,14 @@ Image credits: unsplash.com
 .input-group input{
   height: 45px;
 }
+
 #colume-search{
   text-align: right;
-  margin-top: 15px; 
+  margin-bottom: 20px;
+}
+#logo-beetech{
+  margin-left: 30px;      
+  padding-top: 30px;
 }
 #input-date-search{
   max-height: 38px;
@@ -314,5 +340,42 @@ Image credits: unsplash.com
   width: 185px;
   padding-left: 40px;
 }
+
 #button-search{ width: 185px; }
 
+/*man hinh dat phong*/
+#form-booking{
+  background-color: #ffcc33;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 2px solid #a1a1a1;
+  border-radius: 25px;
+}
+/*man hinh thong tin khach hang*/
+#info-customer{
+  background-color: #ffcc33;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 2px solid #a1a1a1;
+  border-radius: 25px;
+}
+#checkboxpassport{
+  margin-left:2px;
+}
+#checkboxvisa{
+  margin-left: 2px;
+}
+#khachhangInfo{
+  background-color: #5799db;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 2px solid #a1a1a1;
+  border-radius: 25px;
+}
+
+#khachhangInfo> .form-group{
+  min-height: 60px;
+}

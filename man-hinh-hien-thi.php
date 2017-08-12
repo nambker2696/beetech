@@ -52,9 +52,13 @@
             <tr>
               <th class="th-room-infor">Tên phòng</th>
               <th class="th-room-infor">Mã phòng</th>
-              <?php for ($i = 1; $i <= 7; $i++) { ?> 
-                <th class="th-room-infor"><?php echo $i ?>/8/2017</th>
-              <? }?>
+              <th class="th-room-infor">1/8/2017</th>
+              <th class="th-room-infor">2/8/2017</th>
+              <th class="th-room-infor">3/8/2017</th>
+              <th class="th-room-infor">4/8/2017</th>
+              <th class="th-room-infor">5/8/2017</th>
+              <th class="th-room-infor">6/8/2017</th>
+              <th class="th-room-infor">7/8/2017</th>
             </tr>
           </thead>
           <tbody>
