@@ -29,7 +29,7 @@
 						</ul>
 					</div>
 
-<!-- form login -->
+					<!-- form login -->
 					<div class="panel-body">
 						<div class="tab-content">
 							<div id="login" class="tab-pane fade in active register">
@@ -89,7 +89,7 @@
 							</div>
 
 
-<!-- // form register -->
+							<!-- // form register -->
 							<div id="signup" class="tab-pane fade">
 								<div class="container-fluid">
 									<div class="row">
@@ -199,6 +199,32 @@
 			</div>
 		</div>
 	</div>
+
+<div class="container">
+		<h2>Các màn hình hoàn thành</h2>
+	<ul>
+		<li>
+			<a href="man-hinh-dat-phong.php" title="">Màn hình đặt phòng</a>		
+		</li>
+		<li>
+			<a href="man-hinh-thong-tin-khach-hang.php">Màn hình thông tin khách hàng khi đặt phòng</a>
+
+		</li>
+		<li>
+			<a href="man-hinh-search.php" title="">Màn hình tìm kiếm tàu</a>
+
+		</li>
+		<li>
+			<a href="man-hinh-hien-thi.php" title="">Màn hình hiển thị</a>
+
+		</li>
+		<li>
+			<a href="man-hinh-dang-ki-tau.php" title="">Màn hình đăng kí tàu</a>
+
+		</li>
+	</ul>
+</div>
+	
 
 	<!-- end form -->
 	<?php include('footer.php'); ?>
