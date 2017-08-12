@@ -11,12 +11,6 @@ body {
 	padding-bottom: 50px;
 }
 /*slide bst*/
-/*
-Fade content bs-carousel with hero headers
-Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
-Image credits: unsplash.com
-*/
-
 /********************************/
 /*       Fade Bs-carousel       */
 /********************************/
@@ -148,7 +142,7 @@ Image credits: unsplash.com
 
 /* Footer */
 .full {
-    width: 100%;    
+  width: 100%;    
 }
 .gap {
   height: 30px;
@@ -284,11 +278,20 @@ Image credits: unsplash.com
 .payments {
   font-size: 1.5em; 
 }
+/* man hinh tim kiem*/
 
 #search{
   margin-top: 70px;
   margin-bottom:50px;
+  background-color: #0909aa;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  border: 1px solid #a1a1a1;
+  border-radius:5px;
 }
+
 #show-search{
   margin-top: 100px;
 }
@@ -365,4 +368,14 @@ Image credits: unsplash.com
 
 #khachhangInfo> .form-group{
   min-height: 60px;
+}
+
+
+/*file  bread crumb*/
+.breadcrumb{
+  background:#fff;
+  margin-top:40px;
+}
+#hr-breadcrumb{
+  margin-top: -10px;
 }
