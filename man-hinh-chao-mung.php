@@ -32,12 +32,14 @@
 	<?php include('header-logged.php') ?>
 	<!-- form -->
 	<div class="content">	
-		<?php include('breadcrumb.php') ?>
+		<?php include('breadcrumb.php') ?>	
+
 		
 
 	</div>
 	<!-- end Content -->
 	<?php include('footer.php'); ?>
+	
 
 </body>
 </html>
