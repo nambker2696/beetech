@@ -1,0 +1,58 @@
+.h3-list-boat {
+	padding: 10px;
+	cursor: pointer;
+	color: #313131;
+	padding-left: 12px;
+	border-radius: 3px;
+	border-bottom: solid 3px #fff;
+}
+.h3-list-boat:hover {
+	background-color: rgba(34, 36, 38, 0.06);
+}
+.h3-list-boat-active {
+	border-bottom: solid 3px #f6f6f6; 
+}
+.cruise-image-left {
+	float: left;
+}
+.img-cruise {
+  width: 220px;
+  height: inherit;
+  border-radius: 5px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, .2);
+  transition: all 0.5s;
+}
+.cruise-image-left:hover img {
+	cursor: pointer;
+  box-shadow: 0 1em 2em rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+.list-room-empty {
+	margin-bottom: 28px;
+	position: relative;
+}
+.cruise-information {
+	float: left;
+	margin-left: 28px;
+}
+.more-infor {
+	position: absolute;
+	right: 15px;
+	bottom: 0px;
+}
+.btn-cruise-see-more-infor {
+	height: 35px;
+  width: 103px;
+  background-color: #FFF;
+  border: solid rgba(49, 49, 49, 1) 1px;
+  cursor: pointer !important;
+  transition: color 0.4s ease 0s;
+  border-radius: 3px;
+}
+.btn-cruise-see-more-infor:hover {
+  background-color: rgba(252, 143, 141, 1);
+  border-color: rgba(252, 143, 141, 1);
+}
+.btn-cruise-see-more-infor:hover > span{
+  color: white;
+}
