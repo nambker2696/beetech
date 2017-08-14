@@ -379,3 +379,20 @@ body {
 #hr-breadcrumb{
   margin-top: -10px;
 }
+
+/*sau khi dang ki dich vu*/
+
+#form-create-new-service{
+  background-color: rgba(33, 133, 208, 0.59);
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 2px solid #a1a1a1;
+  border-radius: 25px;
+}
+#question-create{
+  margin-top: 50px;
+}
+.beetech-selected {
+  text-align: center;
+}
