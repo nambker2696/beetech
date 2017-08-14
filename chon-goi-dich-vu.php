@@ -16,7 +16,7 @@
   <script src="dist/semantic.min.js"></script>
 </head>
 <body>
-  <?php include('header.php') ?>
+  <?php $page = 'price'; include('header-logged.php') ?>
   <div class="container">
     <section>
       <div class='pricing pricing-palden'>

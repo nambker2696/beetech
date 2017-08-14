@@ -15,7 +15,7 @@
   <script src="js/jquery-ui.min.js"></script>
 </head>
 <body>
-  <?php include('header-logged.php') ?>
+  <?php $page = 'feedback'; include('header-logged.php') ?>
   <!-- end form -->
   <div class="content">
     <div class="container">
