@@ -15,7 +15,7 @@
         <ul class="nav navbar-nav nav-bar-custom">
           <li>
             <div class="logo" id="logo-beetech">
-              <img class="logo-beetech" src="img/logo_beetech.png"> 
+              <a href="/"><img class="logo-beetech" src="img/logo_beetech.png"> </a>
             </div>
           </li>
           <li class="dropdown nav-bar-item-5">
@@ -26,10 +26,10 @@
               <li><a href="#">ĐĂNG KÝ</a></li>
             </ul>
           </li>
-          <li class="nav-bar-item-5"><a href="#">Giá</a></li>
+          <li class="nav-bar-item-5 <?php echo ($page == 'price') ? "is-active" : ""; ?>" ><a href="chon-goi-dich-vu.php">Giá</a></li>
           <li class="nav-bar-item-5"><a href="#">Bản dùng thử</a></li>
-          <li class="nav-bar-item-5"><a href="man-hinh-cau-hoi-thuong-gap.php">Câu hỏi thưòng gặp</a></li>
-          <li class="nav-bar-item-5 is-active"><a href="man-hinh-y-kien-khach-hang.php">Ý kiến khách hàng</a></li>
+          <li class="nav-bar-item-5 <?php echo ($page == 'faq') ? "is-active" : ""; ?>"><a href="man-hinh-cau-hoi-thuong-gap.php">Câu hỏi thường gặp</a></li>
+          <li class="nav-bar-item-5 <?php echo ($page == 'feedback') ? "is-active" : ""; ?>"><a href="man-hinh-y-kien-khach-hang.php">Ý kiến khách hàng</a></li>
           <li class="dropdown nav-bar-item-avatar">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img class="icon-avatar" src="https://avatars0.githubusercontent.com/u/25922489?v=4&s=460">
