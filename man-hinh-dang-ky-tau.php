@@ -226,6 +226,7 @@
         $('.li-step2').addClass('is-active');
         $('.step3').hide();
         $('.step2').show();
+        $('.btn-next-step').text('Bước tiếp theo');
       }
     });
     $('.add-equipment').click(function(){

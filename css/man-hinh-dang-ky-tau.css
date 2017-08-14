@@ -1,5 +1,4 @@
 
-
 .steps{
   list-style-type: none;
   margin: 0;
@@ -79,6 +78,11 @@
   padding: 15px 0;
   color: #777;  
   cursor: pointer;
+}
+@media screen  and (max-width: 480px) {
+  .remove-equipment {
+    margin-left: 20px;
+  }
 }
 .add-images {
   display: flex;
