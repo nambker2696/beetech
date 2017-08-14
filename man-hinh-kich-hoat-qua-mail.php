@@ -47,7 +47,7 @@
 		<div class="panel">
 			<div class="panel-body">
 
-				<form>
+				<form action="man-hinh-chao-mung-member.php" action="POST" >
 					<div class="form-group">
 						<input type="password" class="form-control" id="password" placeholder="Password">
 					</div>

@@ -23,14 +23,14 @@
 	</script>
 </head>
 <body>
-	<?php include('header-logged.php') ?>
+	<?php include('header-member.php') ?>
 	<!-- form -->
 	<div class="container" style="padding-top: 60px;">
 		<h1 class="page-header">Thông tin khách hàng</h1>
 		<div class="row">
 			<div class="col-md-8 col-sm-6 col-xs-12 personal-info col-md-offset-2" >
 				<h3>Thông tin khách hàng</h3>
-				<form class="form-horizontal" role="form">
+				<form action="#" method="POST" class="form-horizontal" role="form">
 					<div class="form-group" id="info-customer">
 						<label class="col-lg-3 control-label">Tên Khách hàng:</label>
 						<div class="col-lg-3">

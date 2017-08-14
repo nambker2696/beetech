@@ -48,7 +48,7 @@
 				<div class="col-md-8 col-sm-6 col-xs-12 personal-info col-md-offset-2" id="form-create-new-service">
 					<h3>Tạo danh sách mới</h3>
 
-					<form class="form-horizontal" role="form" id="order-room">
+					<form action="man-hinh-kich-hoat-qua-mail.php" method="POST" class="form-horizontal" role="form" id="order-room">
 						<div class="form-group">
 							<label class="col-md-4 control-label">Lựa chọn tàu:</label>
 							<div class="col-md-4">
@@ -92,7 +92,7 @@
 						<div class="form-group">
 							<label class="col-md-4 control-label"></label>
 							<div class="col-md-8">
-								<input class="btn btn-primary" value="Save Changes" type="button">
+								<input class="btn btn-primary" value="Save Changes" type="submit">
 								<span></span>
 							</div>
 						</div>

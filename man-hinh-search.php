@@ -29,7 +29,7 @@
 	<?php include('breadcrumb.php') ?>
 		<div class="container" >
 			<div id="search">
-				<form action="#" method="POST" accept-charset="utf-8">
+				<form action="man-hinh-chon-tau.php" method="POST" accept-charset="utf-8">
 					<div class="ui column centered grid">
 						<div class="ui col-md-2">
 							<div class="ui input">
@@ -74,7 +74,7 @@
 		</div>
 
 
-		<section id="show-search">
+<!-- 		<section id="show-search">
 			<div class="ui container column">
 				<h1 class="ui dividing header">Danh sách tàu</h1>
 				<br>
@@ -125,7 +125,7 @@
 					</tbody>
 				</table>
 			</div>
-		</section>
+		</section> -->
 	</div>
 	<!-- end content -->
 	<?php include('footer.php'); ?>

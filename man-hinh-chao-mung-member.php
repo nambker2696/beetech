@@ -29,7 +29,7 @@
 	</script>
 </head>
 <body>
-	<?php include('header-logged.php') ?>
+	<?php include('header-member.php') ?>
 	<!-- form -->
 	<div class="content">	
 		<?php include('breadcrumb.php') ?>	

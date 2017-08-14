@@ -24,7 +24,7 @@
 	</script>
 </head>
 <body>
-	<?php include('header-logged.php') ?>
+	<?php include('header-member.php') ?>
 	<!-- form -->
 	<div class="content">
 		<?php include('breadcrumb.php') ?>	
@@ -33,7 +33,7 @@
 			<div class="row">
 				<div class="col-md-8 col-sm-6 col-xs-12 personal-info col-md-offset-2" id="form-booking">
 					<h3>Thông tin Booking</h3>
-					<form class="form-horizontal" role="form" id="order-room">
+					<form  action="man-hinh-thong-tin-khach-hang.php" method="POST" class="form-horizontal" role="form" id="order-room">
 						<div class="form-group">
 							<label class="col-lg-3 control-label">Tên tàu:</label>
 							<div class="col-lg-8">
@@ -102,7 +102,7 @@
 						<div class="form-group">
 							<label class="col-md-3 control-label"></label>
 							<div class="col-md-8">
-								<input class="btn btn-primary" value="Save Changes" type="button">
+								<input class="btn btn-primary" value="Save Changes" type="submit">
 								<span></span>
 							</div>
 						</div>

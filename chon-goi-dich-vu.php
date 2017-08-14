@@ -6,6 +6,7 @@
   <title>Màn hình đăng nhập</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet"  href="css/man-hinh-goi-dich-vu.css">
   <link rel="stylesheet" type="text/css" href="dist/semantic.min.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
@@ -19,6 +20,7 @@
     <div class="container">
       <section>
         <div class='pricing pricing-palden'>
+            <!-- // select 1 -->
           <div class='pricing-item'>
             <div class='pricing-deco'>
               <svg class='pricing-deco-img' enable-background='new 0 0 300 100' height='100px' id='Layer_1' preserveAspectRatio='none' version='1.1' viewBox='0 0 300 100' width='300px' x='0px' xml:space='preserve' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg' y='0px'>
@@ -38,6 +40,8 @@
             </ul>
             <button class='pricing-action'>Chọn mua</button>
           </div>
+
+          <!-- select 2 -->
           <div class='pricing-item pricing__item--featured'>
             <div class='pricing-deco'>
               <svg class='pricing-deco-img' enable-background='new 0 0 300 100' height='100px' id='Layer_1' preserveAspectRatio='none' version='1.1' viewBox='0 0 300 100' width='300px' x='0px' xml:space='preserve' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg' y='0px'>
@@ -58,8 +62,13 @@
               <li class='pricing-feature'>Xem tàu</li>
               <li class='pricing-feature'>Chọn tàu</li>
             </ul>
-            <button class='pricing-action'>Chọn mua</button>
+            <form action="sau-khi-chon-goi-dich-vu.php" method="POST" accept-charset="utf-8">
+              <button class='pricing-action'>Chọn mua</button>  
+            </form>
+            
           </div>
+
+        <!-- select 3 -->
           <div class='pricing-item'>
             <div class='pricing-deco'>
               <svg class='pricing-deco-img' enable-background='new 0 0 300 100' height='100px' id='Layer_1' preserveAspectRatio='none' version='1.1' viewBox='0 0 300 100' width='300px' x='0px' xml:space='preserve' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg' y='0px'>

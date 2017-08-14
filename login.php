@@ -40,61 +40,64 @@
 						<!-- form login -->
 						<div class="panel-body">
 							<div class="tab-content">
-								<div id="login" class="tab-pane fade in active register">
-									<div class="container-fluid">
-										<div class="row">
-											<h2 class="text-center" style="color: #5cb85c;"> <strong> Login  </strong></h2><hr />
-
+								<form action="chon-goi-dich-vu.php" method="POST" accept-charset="utf-8">
+									
+									<div id="login" class="tab-pane fade in active register">
+										<div class="container-fluid">
 											<div class="row">
-												<div class="col-xs-12 col-sm-12 col-md-12">
-													<div class="form-group">
-														<div class="input-group">
-															<div class="input-group-addon">
-																<span class="glyphicon glyphicon-user"></span>
+												<h2 class="text-center" style="color: #5cb85c;"> <strong> Login  </strong></h2><hr />
+
+												<div class="row">
+													<div class="col-xs-12 col-sm-12 col-md-12">
+														<div class="form-group">
+															<div class="input-group">
+																<div class="input-group-addon">
+																	<span class="glyphicon glyphicon-user"></span>
+																</div>
+																<input type="text" placeholder="User Name" name="uname" class="form-control">
 															</div>
-															<input type="text" placeholder="User Name" name="uname" class="form-control">
 														</div>
 													</div>
 												</div>
-											</div>
 
-											<div class="row">
-												<div class="col-xs-12 col-sm-12 col-md-12">
-													<div class="form-group">
-														<div class="input-group">
-															<div class="input-group-addon">
-																<span class="glyphicon glyphicon-lock"></span>
+												<div class="row">
+													<div class="col-xs-12 col-sm-12 col-md-12">
+														<div class="form-group">
+															<div class="input-group">
+																<div class="input-group-addon">
+																	<span class="glyphicon glyphicon-lock"></span>
+																</div>
+
+																<input type="password" placeholder="Password" name="pass" class="form-control">
 															</div>
-
-															<input type="password" placeholder="Password" name="pass" class="form-control">
 														</div>
 													</div>
 												</div>
-											</div>
 
-											<div class="col-xs-12 col-sm-12 col-md-12">
-												<div class="col-xs-6 col-sm-6 col-md-6">
-													<div class="form-group">
-														<input type="checkbox" name="check" checked> Remember Me
+												<div class="col-xs-12 col-sm-12 col-md-12">
+													<div class="col-xs-6 col-sm-6 col-md-6">
+														<div class="form-group">
+															<input type="checkbox" name="check" checked> Remember Me
+														</div>
+													</div>
+
+													<div class="col-xs-6 col-sm-6 col-md-6">
+														<div class="form-group">
+															<a href="#forgot" data-toggle="modal"> Forgot Password? </a>
+														</div>
+													</div>
+												</div>
+												<hr />
+												<div class="row">
+													<div class="col-xs-6 col-sm-6 col-md-4">
+														<button type="submit" onclick="myFunctionLogin()" class="btn btn-success btn-block btn-lg"> Login </button>
 													</div>
 												</div>
 
-												<div class="col-xs-6 col-sm-6 col-md-6">
-													<div class="form-group">
-														<a href="#forgot" data-toggle="modal"> Forgot Password? </a>
-													</div>
-												</div>
 											</div>
-											<hr />
-											<div class="row">
-												<div class="col-xs-6 col-sm-6 col-md-4">
-													<button type="submit" onclick="myFunctionLogin()" class="btn btn-success btn-block btn-lg"> Login </button>
-												</div>
-											</div>
-
-										</div>
-									</div> 
-								</div>
+										</div> 
+									</div>
+								</form>
 
 								<!-- // form register -->
 								<div id="signup" class="tab-pane fade">
@@ -206,52 +209,17 @@
 				</div>
 			</div>
 		</div>
-
-		<div class="container">
-			<h2>Các màn hình hoàn thành</h2>
-			<ul>
-				<li>
-					<a href="man-hinh-dat-phong.php" title="">Màn hình đặt phòng</a>		
-				</li>
-				<li>
-					<a href="man-hinh-thong-tin-khach-hang.php">Màn hình thông tin khách hàng khi đặt phòng</a>
-
-				</li>
-				<li>
-					<a href="man-hinh-search.php" title="">Màn hình tìm kiếm tàu</a>
-
-				</li>
-				<li>
-					<a href="man-hinh-hien-thi.php" title="">Màn hình hiển thị</a>
-
-				</li>
-				<li>
-					<a href="man-hinh-dang-ki-tau.php" title="">Màn hình đăng kí tàu(Nam làm)</a>
-
-				</li>
-				<li>
-					<a href="man-hinh-dang-ky-tau.php" title="">Màn hình đăng kí tàu(Toàn Làm)</a>
-				</li>
-				<li>
-					<a href="man-hinh-chon-tau.php">Man hinh chon tau</a>
-				</li>
-				<li><a href="man-hinh-chao-mung.php" title="">Man hinh chao mung</a></li>
-				<li><a href="man-hinh-kich-hoat-qua-mail.php" title="">Màn hình kích hoạt mail</a></li>
-			</ul>
-		</div>
 	</div>
-	
-
 	<!-- end form -->
 	<?php include('footer.php'); ?>
 	<script>
-	function myFunctionLogin(){
-		swal(
-			'You login success!',
-			'Wellcome to our website!',
-			'success'
-		)
-	}
+		function myFunctionLogin(){
+			swal(
+				'You login success!',
+				'Wellcome to our website!',
+				'success'
+				)
+		}
 	</script>
 </body>
 </html>
