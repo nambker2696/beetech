@@ -30,7 +30,7 @@
   <div class="container" style="padding-top: 60px;">
     <h1 class="page-header">Lựa chọn tàu</h1>
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4" style="margin-bottom: 15px;">
         <h3>Danh sách tàu còn trống phòng</h3>
         <h3 id="cruise_1" class="h3-list-boat h3-list-boat-active ">
           <span>ahihi Cruise 1</span>

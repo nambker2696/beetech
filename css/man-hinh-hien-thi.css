@@ -9,10 +9,10 @@
   width: 25%;
   text-align: center;
 }
-.content { 
-  display: flex; 
+.show-center-content { 
+  display: flex;
 }
-.center-content { 
+.center-content {
   width: 100%; 
 }
 /*header hien thi thong tin co ban cua thuyen*/

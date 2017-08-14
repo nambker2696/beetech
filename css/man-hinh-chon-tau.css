@@ -15,8 +15,25 @@
 .cruise-image-left {
 	float: left;
 }
+@media screen and (max-width: 480px) {
+	.img-cruise { 
+		width: 125px;
+	}
+	.more-infor {
+		display: none;
+	}
+	.list-room-empty {
+		margin-bottom: 12px!important;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #000;
+	}
+}
+@media screen and (min-width: 480px) {
+	.img-cruise {
+		width: 220px;
+	}
+}
 .img-cruise {
-  width: 220px;
   height: inherit;
   border-radius: 5px;
   box-shadow: 0 5px 30px rgba(0, 0, 0, .2);
@@ -30,6 +47,7 @@
 .list-room-empty {
 	margin-bottom: 28px;
 	position: relative;
+	display: flex;
 }
 .cruise-information {
 	float: left;

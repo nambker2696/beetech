@@ -18,7 +18,7 @@
   <div class="content"> 
   <?php include('breadcrumb.php') ?>
     <div class="container">
-      <div class="content" style="display: flex;">
+      <div class="show-center-content">
         <div class="calendar">
         </div>
         <div class="center-content" style="width: 100%">
