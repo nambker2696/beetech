@@ -1,0 +1,50 @@
+.faq-header {
+  margin-top: 39px;
+  margin-bottom: 60px;
+}
+.question-contents-header {
+
+}
+.question-contents{
+	margin-top: 25px;
+	padding-left: 25px;
+}
+.question-contents li {
+	list-style-type: none;
+	font-weight: bold;
+	padding: 8px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.question-contents li:hover {
+	background-color: #f7f7f7;
+}
+.question-contents .active {
+	color: #3498db;
+}
+.question-contents li span {
+	font-size: 16px;
+}
+.question-item {
+	display: flex;
+	padding: 20px 0;
+	border-bottom: solid 1px #f1f1f1;
+}
+.expan-question-fa {
+	font-size: 20px;
+	color: #5892fc;
+	cursor: pointer;
+}
+.question-content {
+	margin-left: 15px;
+}
+.span-question { 
+	font-size: 19px;
+	font-weight: bold;
+}
+.anwser {
+	margin-top: 24px;
+	margin-bottom: 10px;
+	display: none;
+	font-size: 16px;
+}
