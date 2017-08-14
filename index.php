@@ -64,19 +64,21 @@
 					<li><a href="sau-khi-chon-goi-dich-vu.php" title="">Màn hình sau khi chọn gói dịch vụ</a></li>
 					<h3>2 màn hình trên tương tự như đại lý vs member</h3>
 					<li><a href="man-hinh-dang-ky-tau.php" title="">Màn hình đăng ký tàu</a></li>
-					<li><a href="man-hinh-kich-hoat-qua-mail.php" title="">Màn hình kích hoạt MAIL </a></li>Cũng tương tự luôn
+					<li><a href="man-hinh-kich-hoat-qua-mail.php" title="">Màn hình kích hoạt MAIL </a></li>Cũng tương tự luôn	
 					<li><a href="man-hinh-chao-mung-chu-tau.php" title="">Màn hình chào mừng chủ tàu</a></li>
 					<li><a href="man-hinh-hien-thi-chu-tau.php" title="">Màn hình chủ tàu</a></li>
 
 					<li><a href="man-hinh-dat-phong.php" title="">Màn hình load dữ liệu từ  Đại Lý gửi lên</a></li>
 					<li><a href="man-hinh-thong-tin-khach-hang.php" title="">Màn hình load dữ liệu từ Đại lý nhập thông tin khách hàng gửi cho chủ tàu!</a></li>
-
 				</ul>
-
+				<h3>Màn hình chính</h3>
+				<ul>
+					<li><a href="home.php" title="">Trang chủ</a></li>
+					<li><a href="man-hinh-y-kien-khach-hang.php" title="">Màn hình ý kiến khách hàng</a></li>
+					<li><a href="man-hinh-cau-hoi-thuong-gap.php" title="">Màn hình câu hỏi thường gặp</a></li>
+				</ul>
 			</div>
 		</div>
-		
-		
 	</div>
 </body>
 </html>
