@@ -28,8 +28,7 @@
           <ul class="nav navbar-nav nav-bar-login-success">
             <li class="nav-bar-item-4" ><a  href="#">Danh sách tàu của bạn</a></li>
             <li class="nav-bar-item-4" ><a  href="#">Các đặt phòng gần đây</a></li>
-            <li class="nav-bar-item-4" ><a  href="#">Booking của bạn</a></li>
-            <li class="nav-bar-item-4" ><a  href="#">Quản lý  Đặt Phòng của bạn</a></li>
+            <li class="nav-bar-item-4" ><a  href="#">Quản lý đặt phòng của bạn</a></li>
             <li class="nav-bar-item-4" ><a  href="#">Thoát</a></li>
           </ul>
         </div><!--/.nav-collapse -->

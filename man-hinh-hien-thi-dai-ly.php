@@ -14,7 +14,7 @@
 
 </head>
 <body>
-  <?php include('header-member.php') ?>
+  <?php include('header-dai-ly.php') ?>
   <div class="content"> 
     <?php include('breadcrumb.php') ?>
     <div class="container">
@@ -33,13 +33,12 @@
             </div>
             <div class="booking-btn">
 
-            <!-- // fom dan duong tim tau -->
-            <form action="man-hinh-search.php" method="get" accept-charset="utf-8">
+            <!-- // fom dan duong dat phong -->
+              <form action="man-hinh-dat-phong.php" method="POST" accept-charset="utf-8">
                 <button class="btn-booking-room" type="submit">
-                  <span> Tìm kiếm phòng </span> 
+                  <span> Đặt phòng </span> 
                 </button>
-            </form>
-              
+              </form>
               <button class="btn-keeping-room">
                 <span>Giữ phòng</span> 
               </button>

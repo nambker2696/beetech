@@ -27,53 +27,56 @@
 				<li><a href="man-hinh-y-kien-khach-hang.php">Màn hình ý kiến khách hàng</a></li>
 				<li><a href="man-hinh-cau-hoi-thuong-gap.php">Màn hình câu hỏi thưòng gặp</a></li>
 			</ul>
-			<h2>Member</h2>
-			<ul>
-				<li><a href="login.php" title="">Màn hình đăng kí member</a></li>
-				<li><a href="chon-goi-dich-vu.php" title="">Chọn gói dịch vụ</a></li>
-				<li><a href="sau-khi-chon-goi-dich-vu.php" title="">Màn hình sau khi chọn gói dịch vụ</a></li>
-				<li><a href="man-hinh-kich-hoat-qua-mail.php" title="">Màn hình kích hoạt MAIL</a></li>
-				<li><a href="man-hinh-chao-mung.php" title="">Màn hình chào mừng</a></li>
-				<li><a href="man-hinh-hien-thi-member.php.php" title="">Màn hình hiển thị</a></li>
-				<li><a href="man-hinh-search.php" title="">Màn hình tìm kiếm(Đặt làm trang home)</a></li>
-				<li><a href="man-hinh-chon-tau.php" title="">Màn hình chọn tàu</a></li>
-				<li><a href="man-hinh-dat-phong.php" title="">Màn hình đặt phòng</a></li>
-				<li><a href="man-hinh-thong-tin-khach-hang.php" title="">Màn hình nhập thông tin khách hàng !</a></li>
+		<div class="row">
+			<div class="col-md-6">
+				<h2>Màn hình Member</h2>
+				<ul>
+					<!-- <li><a href="login.php" title="">Màn hình đăng kí member</a></li> -->
+					<li><a href="chon-goi-dich-vu.php" title="">Chọn gói dịch vụ</a></li>
+					<li><a href="sau-khi-chon-goi-dich-vu.php" title="">Màn hình sau khi chọn gói dịch vụ</a></li>
+					<li><a href="man-hinh-kich-hoat-qua-mail.php" title="">Màn hình kích hoạt MAIL</a></li>
+					<li><a href="man-hinh-chao-mung-member.php" title="">Màn hình chào mừng</a></li>
+					<li><a href="man-hinh-hien-thi-member.php" title="">Màn hình hiển thị</a></li>
+					<li><a href="man-hinh-search.php" title="">Màn hình tìm kiếm(Đặt làm trang home)</a></li>
+					<li><a href="man-hinh-chon-tau.php" title="">Màn hình chọn tàu</a></li>
 
-			</ul>
+				</ul>
 
-			
-			<h2>Man hình Đại lý</h2>
+				<h2>Man hình Đại lý</h2>
+				<ul>
+					<li><a href="chon-goi-dich-vu.php" title="">Chọn gói dịch vụ</a></li>
+					<li><a href="sau-khi-chon-goi-dich-vu.php" title="">Màn hình sau khi chọn gói dịch vụ</a></li>
+					<li><a href="man-hinh-kich-hoat-qua-mail.php" title="">Màn hình kích hoạt MAIL</a></li> 
 
-			<ul>
-				<li>
-					<a href="man-hinh-dat-phong.php" title="">Màn hình đặt phòng</a>		
-				</li>
-				<li>
-					<a href="man-hinh-thong-tin-khach-hang.php">Màn hình thông tin khách hàng khi đặt phòng</a>
+					<h3>Phần trên các màn hình giống hệt member</h3>				
+					<li><a href="man-hinh-chao-mung-dai-ly.php" title="">Màn hình chào mừng</a></li>
+					<li><a href="man-hinh-hien-thi-dai-ly.php" title="">Màn hình hiển thị đại lý</a></li>	
+					<li><a href="man-hinh-hien-thi-dai-ly.php" title="">Màn hình hiển thị đại lý</a></li>
+					<li><a href="man-hinh-dat-phong.php" title="">Màn hình đặt phòng chỉ ở Đại Lý</a></li>
+					<li><a href="man-hinh-thong-tin-khach-hang.php" title="">Màn hình nhập thông tin khách hàng của anh Đại LÝ!</a></li>
 
-				</li>
-				<li>
-					<a href="man-hinh-search.php" title="">Màn hình tìm kiếm tàu</a>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<h2>Màn hình chủ tàu</h2>
+				<ul>
+					<li><a href="chon-goi-dich-vu.php" title="">Chọn gói dịch vụ</a></li>
+					<li><a href="sau-khi-chon-goi-dich-vu.php" title="">Màn hình sau khi chọn gói dịch vụ</a></li>
+					<h3>2 màn hình trên tương tự như đại lý vs member</h3>
+					<li><a href="man-hinh-dang-ky-tau.php" title="">Màn hình đăng ký tàu</a></li>
+					<li><a href="man-hinh-kich-hoat-qua-mail.php" title="">Màn hình kích hoạt MAIL </a></li>Cũng tương tự luôn
+					<li><a href="man-hinh-chao-mung-chu-tau.php" title="">Màn hình chào mừng chủ tàu</a></li>
+					<li><a href="man-hinh-hien-thi-chu-tau.php" title="">Màn hình chủ tàu</a></li>
 
-				</li>
-				<li>
-					<a href="man-hinh-hien-thi.php" title="">Màn hình hiển thị</a>
+					<li><a href="man-hinh-dat-phong.php" title="">Màn hình load dữ liệu từ  Đại Lý gửi lên</a></li>
+					<li><a href="man-hinh-thong-tin-khach-hang.php" title="">Màn hình load dữ liệu từ Đại lý nhập thông tin khách hàng gửi cho chủ tàu!</a></li>
 
-				</li>
-				<li>
-					<a href="man-hinh-dang-ki-tau.php" title="">Màn hình đăng kí tàu(Nam làm)</a>
+				</ul>
 
-				</li>
-				<li>
-					<a href="man-hinh-dang-ky-tau.php" title="">Màn hình đăng kí tàu(Toàn Làm)</a>
-				</li>
-				<li>
-					<a href="man-hinh-chon-tau.php">Man hinh chon tau</a>
-				</li>
-				<li><a href="man-hinh-chao-mung.php" title="">Man hinh chao mung</a></li>
-				<li><a href="man-hinh-kich-hoat-qua-mail.php" title="">Màn hình kích hoạt mail</a></li>
-			</ul>
+			</div>
 		</div>
+		
+		
+	</div>
 </body>
 </html>
