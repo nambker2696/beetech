@@ -1,5 +1,5 @@
 
-<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+<div class="carousel fade-carousel2 slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
   <!-- Overlay -->
   <div class="overlay"></div>
 
@@ -9,30 +9,27 @@
   <div class="carousel-inner">
     <div class="item slides active">
       <!-- <div class="slide-1"></div> -->
-      <img src="img/sl1.jpg" alt="">
+      <img src="img/2.jpg" alt="">
       <div class="hero">
         <hgroup>
           <h3>Get start your next awesome project</h3>
         </hgroup>
-        <button class="btn btn-hero btn-lg" role="button">See all features</button>
       </div>
     </div>
     <div class="item slides">
-      <img src="img/sl2.jpg" alt="">
+      <img src="img/2.jpg" alt="">
       <div class="hero">        
         <hgroup>
           <h3>Get start your next awesome project</h3>
         </hgroup>       
-        <button class="btn btn-hero btn-lg" role="button">See all features</button>
       </div>
     </div>
     <div class="item slides">
-      <img src="img/sl1.jpg" alt="">
+      <img src="img/2.jpg" alt="">
       <div class="hero">        
         <hgroup>
           <h3>Get start your next awesome project</h3>
         </hgroup>
-        <button class="btn btn-hero btn-lg" role="button">See all features</button>
       </div>
     </div>
   </div>

@@ -67,74 +67,75 @@
             </span>
           </div>
           <div class="more-infor">
-            <button class="btn-cruise-see-more-infor">
+          <form action="man-hinh-chi-tiet-tau.php" method="POST " accept-charset="utf-8">
+             <button class="btn-cruise-see-more-infor">
               <span>Xem thêm</span>
             </button>
-          </div>
+          </form>
         </div>
-        <div class="list-room-empty clearfix">
-          <div class="cruise-image-left">
-            <a class="cruise-image-link" href="">
-              <img class="img-cruise" src="http://www.leapsandboundstravel.com/images/ocean-cruise.jpg">  
-            </a>
-          </div>  
-          <div class="cruise-information">
-            <h3><span>Ahihi Cruise 2 ngày 1 đêm</span></h3>
-            <span class="span-shot-describe">
-              <span>Lịch trình tham quan: Bái Tử Long - Thiên Cảnh Sơn - Vũng Viếng</span>
-            </span>
-          </div>
-          <div class="more-infor">
-            <button class="btn-cruise-see-more-infor">
-              <span>Xem thêm</span>
-            </button>
-          </div>
-        </div> 
-        <div class="list-room-empty clearfix">
-          <div class="cruise-image-left">
-            <a class="cruise-image-link" href="">
-              <img class="img-cruise" src="http://i2.mirror.co.uk/incoming/article3235220.ece/ALTERNATES/s615/celebrityresize.jpg">  
-            </a>
-          </div>  
-          <div class="cruise-information">
-            <h3><span>Ahihi Cruise 2 ngày 1 đêm</span></h3>
-            <span class="span-shot-describe">
-              <span>Lịch trình tham quan: Bái Tử Long - Thiên Cảnh Sơn - Vũng Viếng</span>
-            </span>
-          </div>
-          <div class="more-infor">
-            <button class="btn-cruise-see-more-infor">
-              <span>Xem thêm</span>
-            </button>
-          </div>
-        </div> 
-        <div class="list-room-empty clearfix">
-          <div class="cruise-image-left">
-            <a class="cruise-image-link" href="">
-              <img class="img-cruise" src="http://i2.mirror.co.uk/incoming/article3235220.ece/ALTERNATES/s615/celebrityresize.jpg">  
-            </a>
-          </div>  
-          <div class="cruise-information">
-            <h3><span>Ahihi Cruise 2 ngày 1 đêm</span></h3>
-            <span class="span-shot-describe">
-              <span>Lịch trình tham quan: Bái Tử Long - Thiên Cảnh Sơn - Vũng Viếng</span>
-            </span>
-          </div>
-          <div class="more-infor">
-            <button class="btn-cruise-see-more-infor">
-              <span>Xem thêm</span>
-            </button>
-          </div>
-        </div> 
       </div>
-
+      <div class="list-room-empty clearfix">
+        <div class="cruise-image-left">
+          <a class="cruise-image-link" href="">
+            <img class="img-cruise" src="http://www.leapsandboundstravel.com/images/ocean-cruise.jpg">  
+          </a>
+        </div>  
+        <div class="cruise-information">
+          <h3><span>Ahihi Cruise 2 ngày 1 đêm</span></h3>
+          <span class="span-shot-describe">
+            <span>Lịch trình tham quan: Bái Tử Long - Thiên Cảnh Sơn - Vũng Viếng</span>
+          </span>
+        </div>
+        <div class="more-infor">
+          <button class="btn-cruise-see-more-infor">
+            <span>Xem thêm</span>
+          </button>
+        </div>
+      </div> 
+      <div class="list-room-empty clearfix">
+        <div class="cruise-image-left">
+          <a class="cruise-image-link" href="">
+            <img class="img-cruise" src="http://i2.mirror.co.uk/incoming/article3235220.ece/ALTERNATES/s615/celebrityresize.jpg">  
+          </a>
+        </div>  
+        <div class="cruise-information">
+          <h3><span>Ahihi Cruise 2 ngày 1 đêm</span></h3>
+          <span class="span-shot-describe">
+            <span>Lịch trình tham quan: Bái Tử Long - Thiên Cảnh Sơn - Vũng Viếng</span>
+          </span>
+        </div>
+        <div class="more-infor">
+          <button class="btn-cruise-see-more-infor">
+            <span>Xem thêm</span>
+          </button>
+        </div>
+      </div> 
+      <div class="list-room-empty clearfix">
+        <div class="cruise-image-left">
+          <a class="cruise-image-link" href="">
+            <img class="img-cruise" src="http://i2.mirror.co.uk/incoming/article3235220.ece/ALTERNATES/s615/celebrityresize.jpg">  
+          </a>
+        </div>  
+        <div class="cruise-information">
+          <h3><span>Ahihi Cruise 2 ngày 1 đêm</span></h3>
+          <span class="span-shot-describe">
+            <span>Lịch trình tham quan: Bái Tử Long - Thiên Cảnh Sơn - Vũng Viếng</span>
+          </span>
+        </div>
+        <div class="more-infor">
+          <button class="btn-cruise-see-more-infor">
+            <span>Xem thêm</span>
+          </button>
+        </div>
+      </div> 
     </div>
 
   </div>
-  <!-- end form -->
 
-  <?php include('footer.php'); ?>
+</div>
+<!-- end form -->
+
+<?php include('footer.php'); ?>
 
 </body>
 </html>
-  
