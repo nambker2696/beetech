@@ -38,89 +38,134 @@
 			<ol class="breadcrumb">
 				<li><a href="#">Home</a></li>
 				<li><a href="#">Chọn gói dịch vụ thành công</a></li>
-				<li class="active">Lý do</li>
+				<li class="active">Tạo danh sách mới</li>
 			</ol>
 			<hr id="hr-breadcrumb">
 		</div>
-<div class="container" style="padding-top: 60px;">
-			<h1 class="page-header">Tạo danh sách phòng</h1>
+		<div class="container" style="padding-top: 60px;">
+			<h1 class="page-header" >Tạo danh sách mới</h1>
 			<div class="row">
-				<div class="col-md-8 col-sm-6 col-xs-12 personal-info col-md-offset-2" id="form-booking">
-					<h3>Thông tin Booking</h3>
+				<div class="col-md-8 col-sm-6 col-xs-12 personal-info col-md-offset-2" id="form-create-new-service">
+					<h3>Tạo danh sách mới</h3>
+
 					<form class="form-horizontal" role="form" id="order-room">
 						<div class="form-group">
-							<label class="col-lg-3 control-label">Tên tàu:</label>
-							<div class="col-lg-8">
-								<input class="form-control" name="" value="" type="text">
+							<label class="col-md-4 control-label">Lựa chọn tàu:</label>
+							<div class="col-md-4">
+								<div class="ui-select">
+									<select id="user_time_zone" class="form-control">
+										<option value="">-- select one --</option>
+										<option value="1">Athina Curise</option>
+									</select>
+								</div>
 							</div>
 						</div>
+
 						<div class="form-group">
-							<label class="col-lg-3 control-label">Ngày khởi hành:</label>
-							<div class="col-lg-3">
-								<div class='input-group date' id='datetimepicker'>
-									<input type='text' class="form-control" name="" value="Ngày khởi hành" id='input-date-search'/>
-									<span class="input-group-addon">
-										<span class="glyphicon glyphicon-calendar"></span>
-									</span>
-								</div>
-							</div>
-							<label class="col-lg-2 control-label">Ngày kết thúc:</label>
-							<div class="col-lg-3">
-								<div class='input-group date' id='datetimepicker'>
-									<input type='text' class="form-control" name="" value="Ngày kết thúc" id='input-date-search'/>
-									<span class="input-group-addon">
-										<span class="glyphicon glyphicon-calendar"></span>
-									</span>
-								</div>
+							<label class="col-md-4 control-label">Hiển thị tên mong muốn:</label>
+							<div class="col-md-4">
+								<input class="form-control" value="" type="text" placeholder="Tên hiển thị">
 							</div>
 						</div>
 						<div class="form-group">
 
 						</div>
 						<div class="form-group">
-							<label class="col-lg-3 control-label">Loại:</label>
-							<div class="col-lg-3">
-								<input class="form-control" value="" type="text">
+							<label class="col-md-4 control-label">Địa chỉ email:</label>
+							<div class="col-md-4">
+								<input class="form-control" value="" type="email" placeholder="Email">
 							</div>
-							<label class="col-lg-2 control-label">Số lượng khách:</label>
-							<div class="col-lg-3">
-								<input class="form-control" type="number" name="" value="" placeholder="" >
+							
+						</div>
+						<div class="form-group">
+							<label class="col-md-4 control-label">Số điện thoại:</label>
+							<div class="col-md-4">
+								<input class="form-control" type="number" name="" value="" placeholder="Phone" >
 							</div>
 						</div>
 						<div class="form-group">
-							<label class="col-lg-3 control-label">Người lớn:</label>
-							<div class="col-lg-3">
-								<input class="form-control" type="number" name="" value="" placeholder="" >
-							</div>
-							<label class="col-lg-2 control-label">Trẻ em:</label>
-							<div class="col-lg-3">
-								<input class="form-control" type="number" name="" value="" placeholder="" >
+							<label class="col-md-4 control-label">Nhập mã kí tự:</label>
+							<div class="col-md-4">
+								<input class="form-control" type="number" name="" value="" placeholder="Number code" >
 							</div>
 						</div>
 						<div class="form-group">
-							<label class="col-lg-3 control-label">TÌNH TRẠNG</label>
-							<div class="col-lg-3">
-								<input class="form-control" name="" value="" type="text">
-							</div>
-							<label class="col-md-2 control-label">Đang giữ:</label>
-							<div class="col-md-3">
-								<input class="form-control" name="" value="" type="text">
-							</div>
-						</div>
-						<div class="form-group">
-							<label class="col-md-3 control-label">Người đặt:</label>
-							<div class="col-md-8">
-								<input class="form-control" name="" value="" type="text" placeholder="Username">
-							</div>
-						</div>
-						<div class="form-group">
-							<label class="col-md-3 control-label"></label>
+							<label class="col-md-4 control-label"></label>
 							<div class="col-md-8">
 								<input class="btn btn-primary" value="Save Changes" type="button">
 								<span></span>
 							</div>
 						</div>
 					</form>
+				</div>
+			</div>
+			<div class="row" id="question-create">
+				<h3 class="beetech-selected">Tại sao lại chọn Beetech</h3>
+				<div class="col-md-3">
+					<div class="ui icon input" id="seach-bar">
+						<input type="text" placeholder="">
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="ui icon input" id="seach-bar">
+						<input type="text" placeholder="">
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="ui icon input" id="seach-bar">
+						<input type="text" placeholder="">
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="ui icon input" id="seach-bar">
+						<input type="text" placeholder="">
+					</div>
+				</div>
+			</div>
+			<div class="row" id="question-create">
+				<h3 class="beetech-selected">Cách sử dụng</h3>
+				<div class="col-md-3">
+					<div class="ui icon input" id="seach-bar">
+						<input type="text" placeholder="">
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="ui icon input" id="seach-bar">
+						<input type="text" placeholder="">
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="ui icon input" id="seach-bar">
+						<input type="text" placeholder="">
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="ui icon input" id="seach-bar">
+						<input type="text" placeholder="">
+					</div>
+				</div>
+			</div>
+			<div class="row" id="question-create">
+				<h3 class="beetech-selected">Ý kiến khách hàng</h3>
+				<div class="col-md-3">
+					<div class="ui icon input" id="seach-bar">
+						<input type="text" placeholder="">
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="ui icon input" id="seach-bar">
+						<input type="text" placeholder="">
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="ui icon input" id="seach-bar">
+						<input type="text" placeholder="">
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="ui icon input" id="seach-bar">
+						<input type="text" placeholder="">
+					</div>
 				</div>
 			</div>
 		</div>

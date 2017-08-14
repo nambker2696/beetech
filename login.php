@@ -226,13 +226,17 @@
 
 				</li>
 				<li>
-					<a href="man-hinh-dang-ki-tau.php" title="">Màn hình đăng kí tàu</a>
+					<a href="man-hinh-dang-ki-tau.php" title="">Màn hình đăng kí tàu(Nam làm)</a>
 
+				</li>
+				<li>
+					<a href="man-hinh-dang-ky-tau.php" title="">Màn hình đăng kí tàu(Toàn Làm)</a>
 				</li>
 				<li>
 					<a href="man-hinh-chon-tau.php">Man hinh chon tau</a>
 				</li>
 				<li><a href="man-hinh-chao-mung.php" title="">Man hinh chao mung</a></li>
+				<li><a href="man-hinh-kich-hoat-qua-mail.php" title="">Màn hình kích hoạt mail</a></li>
 			</ul>
 		</div>
 	</div>
