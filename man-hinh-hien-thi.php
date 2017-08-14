@@ -32,12 +32,8 @@
               </span>  
             </div>
             <div class="booking-btn">
-              <button class="btn-booking-room">
-                <span> Đặt phòng </span> 
-              </button>
-              <button class="btn-keeping-room">
-                <span>Giữ phòng</span> 
-              </button>
+              <a href="man-hinh-dat-phong.php"><button class="btn-keeping-room"><span>Đặt phòng</span> </button></a>
+              <a href="man-hinh-dat-phong.php"><button class="btn-keeping-room"><span>Giữ phòng</span> </button></a>
             </div>
           </div>
           <table class="table-room-infor">
@@ -45,13 +41,25 @@
               <tr>
                 <th class="th-room-infor">Tên phòng</th>
                 <th class="th-room-infor">Mã phòng</th>
-                <th class="th-room-infor">1/8/2017</th>
-                <th class="th-room-infor">2/8/2017</th>
-                <th class="th-room-infor">3/8/2017</th>
-                <th class="th-room-infor">4/8/2017</th>
-                <th class="th-room-infor">5/8/2017</th>
-                <th class="th-room-infor">6/8/2017</th>
-                <th class="th-room-infor">7/8/2017</th>
+                <th class="th-room-infor">1</th>
+                <th class="th-room-infor">2</th>
+                <th class="th-room-infor">3</th>
+                <th class="th-room-infor">4</th>
+                <th class="th-room-infor">5</th>
+                <th class="th-room-infor">6</th>
+                <th class="th-room-infor">7</th>
+                <th class="th-room-infor">7</th>
+                <th class="th-room-infor">7</th>
+                <th class="th-room-infor">7</th>
+                <th class="th-room-infor">7</th>
+                <th class="th-room-infor">7</th>
+                <th class="th-room-infor">7</th>
+                <th class="th-room-infor">7</th>
+                <th class="th-room-infor">7</th>
+                <th class="th-room-infor">7</th>
+                <th class="th-room-infor">7</th>
+                <th class="th-room-infor">7</th>
+                <th class="th-room-infor">7</th>
               </tr>
             </thead>
             <tbody>

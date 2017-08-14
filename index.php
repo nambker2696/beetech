@@ -23,6 +23,10 @@
 	<div class="container">
 			<h2>Các màn hình hoàn thành</h2>
 			<br><br><br>
+			<ul>
+				<li><a href="man-hinh-y-kien-khach-hang.php">Màn hình ý kiến khách hàng</a></li>
+				<li><a href="man-hinh-cau-hoi-thuong-gap.php">Màn hình câu hỏi thưòng gặp</a></li>
+			</ul>
 			<h2>Member</h2>
 			<ul>
 				<li><a href="login.php" title="">Màn hình đăng kí member</a></li>

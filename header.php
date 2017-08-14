@@ -15,7 +15,7 @@
     </div>
   </div>
   <!-- Static navbar -->
-  <nav class="navbar navbar-default" style="min-height: 50px;">
+  <nav class="navbar " style="min-height: 50px;">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="float: left;">
@@ -27,18 +27,19 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav nav-bar-custom">
+          <li></li>
           <li class="dropdown nav-bar-item">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SẢN PHẨM <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sản phẩm <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#">GIỚI THIỆU VỀ SẢN PHẨM</a></li>
               <li><a href="#">THỬ MIỄN PHÍ</a></li>
               <li><a href="#">ĐĂNG KÝ</a></li>
             </ul>
           </li>
-          <li class="nav-bar-item"><a class="nav-bar-item-link" href="#">GIÁ</a></li>
-          <li class="nav-bar-item"><a class="nav-bar-item-link" href="#">BẢN DÙNG THỬ</a></li>
-          <li class="nav-bar-item"><a class="nav-bar-item-link" href="#">CÂU HỎI THƯỜNG GẶP</a></li>
-          <li class="nav-bar-item"><a class="nav-bar-item-link" href="#">Ý KIẾN KHÁCH HÀNG</a></li>
+          <li class="nav-bar-item"><a class="nav-bar-item-link" href="#">Gía</a></li>
+          <li class="nav-bar-item"><a class="nav-bar-item-link" href="#">Bản dùng thử</a></li>
+          <li class="nav-bar-item"><a class="nav-bar-item-link" href="#">Câu hỏi thưòng gặp</a></li>
+          <li class="nav-bar-item"><a class="nav-bar-item-link" href="#">Ý kiến khách hàng</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div><!--/.container-fluid -->

@@ -30,7 +30,7 @@
 		<div class="row">
 			<div class="col-md-8 col-sm-6 col-xs-12 personal-info col-md-offset-2" >
 				<h3>Thông tin khách hàng</h3>
-				<form action="#" method="POST" class="form-horizontal" role="form">
+				<form action="man-hinh-search.php" method="POST" class="form-horizontal" role="form">
 					<div class="form-group" id="info-customer">
 						<label class="col-lg-3 control-label">Tên Khách hàng:</label>
 						<div class="col-lg-3">
@@ -363,7 +363,8 @@
 					<div class="form-group">
 						<label class="col-md-3 control-label"></label>
 						<div class="col-md-8">
-							<input class="btn btn-primary" value="HOÀN THÀNH" type="button">
+							<a href="man-hinh-search.php"><input class="btn btn-primary" value="HOÀN THÀNH" type="button"></a>
+							
 							<span></span>
 						</div>
 					</div>
