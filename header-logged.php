@@ -15,7 +15,7 @@
         <ul class="nav navbar-nav nav-bar-custom">
           <li>
             <div class="logo" id="logo-beetech">
-              <a href="/"><img class="logo-beetech" src="img/logo_beetech.png"> </a>
+              <a href="home.php"><img class="logo-beetech" src="img/logo_beetech.png"> </a>
             </div>
           </li>
           <li class="dropdown nav-bar-item-5">
