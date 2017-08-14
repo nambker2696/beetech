@@ -1,0 +1,139 @@
+#colorstar { color: #eecd22;;}
+.badForm {color: #FF0000;}
+.goodForm {color: #00FF00;}
+.evaluation { margin-left:30px;} 
+/*.starrr{ color:#eecd22; }*/
+.product-name-wrapper {
+	display: flex;
+	align-items: center;
+	margin: .5em 0 0;
+}
+.product-name-wrapper .product-name {
+	display: flex;
+	align-items: center;
+	font-weight: 700;
+	font-size: 2.7em!important;
+}
+.product-rating-wrapper {
+	display: flex;
+	align-items: center;
+	margin: 2em 0;
+}
+.product-rating-wrapper .product-rating-value {
+	display: inline-block;
+	border-radius: 3px;
+	background: #ffbb58;
+	color: #fff;
+	padding: 0 .5em;
+	height: 2em;
+	line-height: 2em;
+}
+.product-rating-wrapper .rating-container {
+	display: inline-block;
+	margin: .2em 1.5em 0;
+}
+.product-rating-wrapper .product-review {
+	display: inline-block;
+	padding-top: .2em;
+	cursor: pointer;
+}
+.html-content {
+	font-size: 1em;
+}
+
+.product-main-book-now-card {
+	-webkit-transition: all .2s ease-in-out 0s;
+	-moz-transition: all .2s ease-in-out 0s;
+	-o-transition: all .2s ease-in-out 0s;
+	-ms-transition: all .2s ease-in-out 0s;
+	transition: all .2s ease-in-out 0s;
+	-webkit-box-shadow: 0 1px 8px rgba(0,0,0,.18);
+	-moz-box-shadow: 0 1px 8px rgba(0,0,0,.18);
+	box-shadow: 0 1px 8px rgba(0,0,0,.18);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+
+.core-sticky-wrapper{
+	    flex: none;
+}
+.core-sticky-absolute-top {
+    position: absolute;
+}
+.product-wrapper-right {
+    
+    right: 5em;
+    width: 20em;
+    z-index: 90;
+}
+
+.best-price-guaranteed-container{
+	font-family: Avenir,proxima-nova,arial,sans-serif;
+	font-weight: 400;
+	color: #545454;
+	line-height: 1.4;
+}
+.best-price-left{
+	box-sizing: border-box;
+}
+.best-price-right{
+margin-left: 1.5em;
+}
+.best-price-heading{
+	    font-weight: 500;
+    font-family: Graphik,Arial,San Fransisco,sans-serif;
+    letter-spacing: -.1px;
+    line-height: 2.4em;
+}
+.best-price-text{
+	    color: #9a9a9a;
+    font-size: .9em;
+}
+.booker-bottom-wrapper{
+	    padding: 2em;
+}
+.basic-price-wrapper{
+    box-sizing: border-box;
+}
+.from-text{
+color: #9a9a9a;
+}
+.listing-price{
+    overflow: hidden;
+}
+.final-price-text{
+	    font-weight: 500;
+    font-family: Graphik,Arial,San Fransisco,sans-serif;
+    letter-spacing: -.1px;
+    font-size: 2.5em;
+    color: #545454;
+    margin-bottom: .5em;
+}
+
+/*// suport*/
+.support-card-wrapper{
+    margin-top: 2em;
+    padding: 1.2em 2em 1.5em;
+    -webkit-box-shadow: 0 1px 8px rgba(0,0,0,.18);
+    -moz-box-shadow: 0 1px 8px rgba(0,0,0,.18);
+    box-shadow: 0 1px 8px rgba(0,0,0,.18);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}
+.support-title{
+    box-sizing: border-box;
+}
+.support-subtitle{
+	    margin-top: .4em;
+    display: flex;
+    align-items: flex-start;
+}
+.support-number{
+    margin-left: 1em;
+}

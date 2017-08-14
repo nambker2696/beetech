@@ -35,6 +35,27 @@ body {
   opacity: 1;
 }
 
+.fade-carousel2 {
+  position: relative;
+  height: 50vh;
+}
+.fade-carousel2 .carousel-inner .item {
+  height: 50vh;
+}
+.fade-carousel2 .carousel-indicators > li {
+  /*margin: 0 2px;*/
+  margin-top: 300px;
+  background-color: #f39c12;
+  border-color: #f39c12;
+  opacity: .7;
+}
+.fade-carousel2 .carousel-indicators > li.active {
+  margin-top: 300px;
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
 /********************************/
 /*          Hero Headers        */
 /********************************/
