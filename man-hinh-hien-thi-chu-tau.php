@@ -14,7 +14,7 @@
 
 </head>
 <body>
-  <?php include('header-member.php') ?>
+  <?php include('header-chu-tau.php') ?>
   <div class="content"> 
     <?php include('breadcrumb.php') ?>
     <div class="container">
@@ -30,19 +30,6 @@
               <span class="time">
                 <span class="title">Tháng:</span>  7
               </span>  
-            </div>
-            <div class="booking-btn">
-
-            <!-- // fom dan duong tim tau -->
-            <form action="man-hinh-search.php" method="get" accept-charset="utf-8">
-                <button class="btn-booking-room" type="submit">
-                  <span> Tìm kiếm phòng </span> 
-                </button>
-            </form>
-              
-              <button class="btn-keeping-room">
-                <span>Giữ phòng</span> 
-              </button>
             </div>
           </div>
           <table class="table-room-infor">

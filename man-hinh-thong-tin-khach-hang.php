@@ -363,7 +363,7 @@
 					<div class="form-group">
 						<label class="col-md-3 control-label"></label>
 						<div class="col-md-8">
-							<input class="btn btn-primary" value="HOÀN THÀNH" type="button">
+							<input class="btn btn-primary" value="HOÀN THÀNH" type="submit">
 							<span></span>
 						</div>
 					</div>

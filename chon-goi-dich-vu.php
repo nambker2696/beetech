@@ -92,7 +92,7 @@
           </ul>
           <form action="sau-khi-chon-goi-dich-vu.php" method="POST" accept-charset="utf-8">
             <button class='pricing-action'>Chọn mua</button>  
-          </form>
+          </form> 
         </div>
       </div>
     </section>
