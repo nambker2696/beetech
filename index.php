@@ -24,8 +24,8 @@
 			<h2>Các màn hình hoàn thành</h2>
 			<br><br><br>
 			<ul>
-				<li><a href="man-hinh-y-kien-khach-hang.php">Màn hình ý kiến khách hàng</a></li>
-				<li><a href="man-hinh-cau-hoi-thuong-gap.php">Màn hình câu hỏi thưòng gặp</a></li>
+				<li><a href="man-hinh-y-kien-khach-hang.php">Màn hình ý kiến khách hàng<span style="color:red">Bổ xung thêm</span></a></li>
+				<li><a href="man-hinh-cau-hoi-thuong-gap.php">Màn hình câu hỏi thưòng gặp<span style="color:red">Bổ xung thêm</span></a></li>
 			</ul>
 		<div class="row">
 			<div class="col-md-6">
@@ -39,6 +39,7 @@
 					<li><a href="man-hinh-hien-thi-member.php" title="">Màn hình hiển thị</a></li>
 					<li><a href="man-hinh-search.php" title="">Màn hình tìm kiếm(Đặt làm trang home)</a></li>
 					<li><a href="man-hinh-chon-tau.php" title="">Màn hình chọn tàu</a></li>
+					<li><a href="man-hinh-chi-tiet-tau.php" title="">Màn hình chi tiết tàu<span style="color:red">Bổ xung thêm</span></a></li>
 
 				</ul>
 
