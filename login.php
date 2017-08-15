@@ -29,7 +29,7 @@
 		<div class="container" id="form-login">
 			<div class="row">
 				<div class="col-md-4 col-md-offset-4">
-					<div class="panel with-nav-tabs ">
+					<div class="with-nav-tabs ">
 						<!-- form login -->
 						<div class="panel-body">
 							<div class="tab-content">
