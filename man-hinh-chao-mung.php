@@ -32,7 +32,6 @@
 	<?php include('header-logged.php') ?>
 	<!-- form -->
 	<div class="content">	
-		<?php include('breadcrumb.php') ?>	
 		<div class="container" style="padding-top: 60px;">
 			<h1 class="page-header">Chào mừng bạn đến với Beetech</h1>
 			<div class="col-md-6 col-sm-6 col-xs-12 personal-info col-md-offset-2" >

@@ -26,7 +26,6 @@
 	<?php include('header-logged.php') ?>
 	<!-- end form -->
 	<div class="content">
-	<?php include('breadcrumb.php') ?>
 		<div class="container" >
 			<div id="search">
 				<form action="man-hinh-chon-tau.php" method="POST" accept-charset="utf-8">

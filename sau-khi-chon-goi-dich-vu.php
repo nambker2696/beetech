@@ -31,9 +31,7 @@
 </head>
 <body>
 	<?php include('header-logged.php') ?>
-	<!-- form -->
 	<div class="content">	
-		<!-- <?php include('breadcrumb.php') ?> -->
 		<div class="container">	
 			<ol class="breadcrumb">
 				<li><a href="#">Home</a></li>

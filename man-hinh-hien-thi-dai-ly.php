@@ -16,7 +16,6 @@
 <body>
   <?php include('header-dai-ly.php') ?>
   <div class="content"> 
-    <?php include('breadcrumb.php') ?>
     <div class="container">
       <div class="show-center-content">
         <div class="calendar">

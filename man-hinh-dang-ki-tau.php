@@ -30,8 +30,6 @@
 	<?php include('header-logged.php') ?>
 	<!-- form -->
 	<div class="content">	
-		<?php include('breadcrumb.php') ?>
-		
 		<div class="container" style="padding-top: 60px;">
 			<h1 class="page-header">Đăng kí tàu</h1>
 			<div class="row">
