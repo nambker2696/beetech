@@ -15,7 +15,9 @@
         <ul class="nav navbar-nav nav-bar-custom">
           <li>
             <div class="logo" id="logo-beetech">
-              <img class="logo-beetech" src="img/logo_beetech.png"> 
+              <a href="/home.php">
+                <img class="logo-beetech" src="img/logo_beetech.png"> 
+              </a>
             </div>
           </li>
           <li class="nav-bar-item-5 <?php echo ($page == 'list-cruise') ? "is-active" : ""; ?>"><a href="man-hinh-chon-tau.php">Danh sách tàu</a></li>

@@ -23,7 +23,7 @@
   </script>
 </head>
 <body>
-  <?php include('header-dai-ly.php') ?>
+  <?php $page = 'list-cruise';include('header-dai-ly.php') ?>
 
   <!-- form -->
 
@@ -105,9 +105,11 @@
           </span>
         </div>
         <div class="more-infor">
-          <button class="btn-cruise-see-more-infor">
-            <span>Xem thêm</span>
-          </button>
+          <a href="man-hinh-chi-tiet-tau.php">
+            <button class="btn-cruise-see-more-infor">
+              <span>Xem thêm</span>
+            </button>
+          </a>
         </div>
       </div> 
       <div class="list-room-empty clearfix">

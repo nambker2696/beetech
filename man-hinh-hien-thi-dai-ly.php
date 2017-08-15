@@ -14,7 +14,7 @@
 
 </head>
 <body>
-  <?php include('header-dai-ly.php') ?>
+  <?php $page = 'room-manage'; include('header-dai-ly.php') ?>
   <div class="content"> 
     <div class="container">
       <h3>Chon tau xem quan ly</h3>
