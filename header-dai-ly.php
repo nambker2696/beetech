@@ -18,9 +18,9 @@
               <img class="logo-beetech" src="img/logo_beetech.png"> 
             </div>
           </li>
-          <li class="nav-bar-item-5 <?php echo ($page == 'list-cruise') ? "is-active" : ""; ?>"><a href="#">Danh sách tàu</a></li>
+          <li class="nav-bar-item-5 <?php echo ($page == 'list-cruise') ? "is-active" : ""; ?>"><a href="man-hinh-chon-tau.php">Danh sách tàu</a></li>
           <li class="nav-bar-item-5 <?php echo ($page == 'recent-room') ? "is-active" : ""; ?>"><a href="">Các phòng đặt gần đây</a></li>
-          <li class="nav-bar-item-5 <?php echo ($page == 'room-manage') ? "is-active" : ""; ?>"><a href="man-hinh-cau-hoi-thuong-gap.php">Quản lý phòng</a></li>
+          <li class="nav-bar-item-5 <?php echo ($page == 'room-manage') ? "is-active" : ""; ?>"><a href="man-hinh-hien-thi-dai-ly.php">Quản lý phòng</a></li>
           <li class="dropdown nav-bar-item-avatar">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img class="icon-avatar" src="https://avatars0.githubusercontent.com/u/25922489?v=4&s=460">
