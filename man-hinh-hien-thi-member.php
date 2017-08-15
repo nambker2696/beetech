@@ -17,6 +17,11 @@
   <?php include('header-member.php') ?>
   <div class="content"> 
     <div class="container">
+      <ul style="border-bottom: 1px solid #777; padding-bottom: 20px">
+        <li><a href="#"><span>Tau Athena 1</span></a> </li>
+        <li><a href="#"><span>Tau Athena 2</span></a></li>
+        <li><a href="#"><span>Tau Athena 3</span></a></li>
+      </ul>
       <div class="show-center-content">
         <div class="calendar">
         </div>
@@ -49,13 +54,34 @@
               <tr>
                 <th class="th-room-infor">Tên phòng</th>
                 <th class="th-room-infor">Mã phòng</th>
-                <th class="th-room-infor">1/8/2017</th>
-                <th class="th-room-infor">2/8/2017</th>
-                <th class="th-room-infor">3/8/2017</th>
-                <th class="th-room-infor">4/8/2017</th>
-                <th class="th-room-infor">5/8/2017</th>
-                <th class="th-room-infor">6/8/2017</th>
-                <th class="th-room-infor">7/8/2017</th>
+                <th class="th-room-infor">1</th>
+                <th class="th-room-infor">2</th>
+                <th class="th-room-infor">3</th>
+                <th class="th-room-infor">4</th>
+                <th class="th-room-infor">5</th>
+                <th class="th-room-infor">6</th>
+                <th class="th-room-infor">7</th>
+                <th class="th-room-infor">1</th>
+                <th class="th-room-infor">2</th>
+                <th class="th-room-infor">3</th>
+                <th class="th-room-infor">4</th>
+                <th class="th-room-infor">5</th>
+                <th class="th-room-infor">6</th>
+                <th class="th-room-infor">7</th>
+                <th class="th-room-infor">1</th>
+                <th class="th-room-infor">2</th>
+                <th class="th-room-infor">3</th>
+                <th class="th-room-infor">4</th>
+                <th class="th-room-infor">5</th>
+                <th class="th-room-infor">6</th>
+                <th class="th-room-infor">7</th>
+                <th class="th-room-infor">1</th>
+                <th class="th-room-infor">2</th>
+                <th class="th-room-infor">3</th>
+                <th class="th-room-infor">4</th>
+                <th class="th-room-infor">5</th>
+                <th class="th-room-infor">6</th>
+                <th class="th-room-infor">7</th>
               </tr>
             </thead>
             <tbody>

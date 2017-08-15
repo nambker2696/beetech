@@ -577,3 +577,70 @@ body {
 .product-card .heart-svg:hover{
   transform: scale(1.1);
 }
+.share-link-wrapper {
+  -webkit-box-shadow: 0 1px 8px rgba(0,0,0,.18);
+  -moz-box-shadow: 0 1px 8px rgba(0,0,0,.18);
+  box-shadow: 0 1px 8px rgba(0,0,0,.18);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  margin-top: 2em;
+  padding: 0 2em 2em;
+}
+.share-link-wrapper .share-link-header {
+    display: flex;
+}
+.share-link-wrapper .share-link-header svg {
+  margin-top: 1.3em;
+  height: 2em;
+  width: 2em;
+  fill: #24a1b2;
+}
+.share-link-wrapper .share-link-header .share-link-title {
+  margin: 1em;
+  font-weight: 500;
+  font-family: Graphik,Arial,San Fransisco,sans-serif;
+  letter-spacing: -.1px;
+  font-size: 1.3em;
+  font-size: 15px;
+}
+.share-link-wrapper .share-link-container {
+    display: flex;
+    margin-left: auto;
+    font-size: 1.2em;
+}
+.share-link-wrapper .share-link-container .link-text-wrapper {
+    flex: 1;
+    overflow-y: hidden;
+    height: 2.2em;
+    padding-right: .5em;
+    border: 1px solid #cbcbcb;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.share-link-wrapper .share-link-container .link-text-wrapper .link-text {
+    padding: .5em 1em;
+    color: #6a6a6a;
+    height: 3.5em;
+    overflow: auto;
+    white-space: nowrap;
+    font-size: 15px;
+}
+.share-link-wrapper .share-link-container .link-button {
+    background: #24a1b2;
+    padding: 0 1em;
+    height: 2.2em;
+    line-height: 2.2em;
+    align-self: flex-start;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    cursor: pointer;
+}
+.share-link-wrapper .share-link-container .link-button span {
+    font-size: .9em;
+    color: #fff;
+    font-weight: 500;
+    font-family: Graphik,Arial,San Fransisco,sans-serif;
+    letter-spacing: -.1px;
+}

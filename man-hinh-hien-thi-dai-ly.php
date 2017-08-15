@@ -17,6 +17,12 @@
   <?php include('header-dai-ly.php') ?>
   <div class="content"> 
     <div class="container">
+      <h3>Chon tau xem quan ly</h3>
+      <ul style="border-bottom: 1px solid #777; padding-bottom: 20px">
+        <li><a href="#"><span>Tau Athena 1</span></a> </li>
+        <li><a href="#"><span>Tau Athena 2</span></a></li>
+        <li><a href="#"><span>Tau Athena 3</span></a></li>
+      </ul>
       <div class="show-center-content">
         <div class="calendar">
         </div>
@@ -48,40 +54,41 @@
               <tr>
                 <th class="th-room-infor">Tên phòng</th>
                 <th class="th-room-infor">Mã phòng</th>
-                <th class="th-room-infor">1/8/2017</th>
-                <th class="th-room-infor">2/8/2017</th>
-                <th class="th-room-infor">3/8/2017</th>
-                <th class="th-room-infor">4/8/2017</th>
-                <th class="th-room-infor">5/8/2017</th>
-                <th class="th-room-infor">6/8/2017</th>
-                <th class="th-room-infor">7/8/2017</th>
+                <th class="th-room-infor">1</th>
+                <th class="th-room-infor">2</th>
+                <th class="th-room-infor">3</th>
+                <th class="th-room-infor">4</th>
+                <th class="th-room-infor">5</th>
+                <th class="th-room-infor">6</th>
+                <th class="th-room-infor">7</th>
+                <th class="th-room-infor">8</th>
+                <th class="th-room-infor">9</th>
+                <th class="th-room-infor">10</th>
+                <th class="th-room-infor">11</th>
+                <th class="th-room-infor">12</th>
+                <th class="th-room-infor">13</th>
+                <th class="th-room-infor">14</th>
+                <th class="th-room-infor">15</th>
+                <th class="th-room-infor">16</th>
+                <th class="th-room-infor">17</th>
+                <th class="th-room-infor">18</th>
+                <th class="th-room-infor">19</th>
+                <th class="th-room-infor">20</th>
+                <th class="th-room-infor">21</th>
+                <th class="th-room-infor">22</th>
+                <th class="th-room-infor">23</th>
+                <th class="th-room-infor">24</th>
+                <th class="th-room-infor">25</th>
+                <th class="th-room-infor">26</th>
+                <th class="th-room-infor">27</th>
+                <th class="th-room-infor">28</th>
+                <th class="th-room-infor">29</th>
+                <th class="th-room-infor">30</th>
               </tr>
             </thead>
             <tbody>
               <tr class="tr-room-infor">
-                <td class="td-room-infor td-room-name">Junio Tw in 1</td>
-                <td class="td-room-infor td-room-code">A1</td>
-                <td class="td-keeping-room td-room-infor"></td>
-                <td class="td-room-infor"></td>
-                <td class="td-available-room td-room-infor"></td>
-                <td class="td-booked-room-full-infor td-room-infor"></td>
-                <td class="td-booked-room-lack-infor td-room-infor"></td>
-                <td class="td-room-infor"></td>
-                <td class="td-room-infor"></td>
-              </tr>
-              <tr class="tr-room-infor">
-                <td class="td-room-infor td-room-name">Junio Tw in 1</td>
-                <td class="td-room-infor td-room-code">A2</td>
-                <td class="td-available-room td-room-infor"></td>
-                <td class="td-keeping-room td-room-infor"></td>
-                <td class="td-booked-room-full-infor td-room-infor"></td>
-                <td class="td-booked-room-lack-infor td-room-infor"></td>
-                <td class="td-room-infor"></td>
-                <td class="td-room-infor"></td>
-                <td class="td-room-infor"></td>
-              </tr>
-              <tr class="tr-room-infor">
-                <td class="td-room-infor td-room-name">Junio Tw in 1</td>
+                 <td class="td-room-infor td-room-name">Junio Tw in 1</td>
                 <td class="td-room-infor td-room-code">A3</td>
                 <td class="td-keeping-room td-room-infor"></td>
                 <td class="td-booked-room-full-infor td-room-infor"></td>
@@ -90,28 +97,165 @@
                 <td class="td-room-infor"></td>
                 <td class="td-room-infor"></td>
                 <td class="td-room-infor"></td>
+                  <td class="td-keeping-room td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                  <td class="td-keeping-room td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                  <td class="td-keeping-room td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                  <td class="td-keeping-room td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor"></td>
               </tr>
               <tr class="tr-room-infor">
-                <td class="td-room-infor td-room-name">Junio Tw in 1</td>
-                <td class="td-room-infor td-room-code">B1</td>
-                <td class="td-keeping-room td-room-infor" style="border-top: 0;"></td>
-                <td class="td-available-room td-room-infor"></td>
-                <td class="td-booked-room-full-infor td-room-infor"></td>
-                <td class="td-booked-room-lack-infor td-room-infor"></td>
-                <td class="td-room-infor"></td>
-                <td class="td-room-infor"></td>
-                <td class="td-room-infor"></td>
-              </tr>
-              <tr class="tr-room-infor">
-                <td class="td-room-infor td-room-name">Junio Tw in 1</td>
-                <td class="td-room-infor td-room-code">B2</td>
-                <td class="td-booked-room-full-infor td-room-infor"></td>
-                <td class="td-booked-room-lack-infor td-room-infor"></td>
+                 <td class="td-room-infor td-room-name">Junio Tw in 1</td>
+                <td class="td-room-infor td-room-code">A3</td>
                 <td class="td-keeping-room td-room-infor"></td>
-                <td class="td-available-room td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
                 <td class="td-room-infor"></td>
                 <td class="td-room-infor"></td>
                 <td class="td-room-infor"></td>
+                  <td class="td-keeping-room td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                  <td class="td-keeping-room td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                  <td class="td-keeping-room td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                  <td class="td-keeping-room td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+              </tr>
+              <tr class="tr-room-infor">
+                <td class="td-room-infor td-room-name">Junio Tw in 1</td>
+                <td class="td-room-infor td-room-code">A3</td>
+                <td class="td-keeping-room td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                  <td class="td-keeping-room td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                  <td class="td-keeping-room td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                  <td class="td-keeping-room td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                  <td class="td-keeping-room td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+              </tr>
+              <tr class="tr-room-infor">
+                 <td class="td-room-infor td-room-name">Junio Tw in 1</td>
+                <td class="td-room-infor td-room-code">A3</td>
+                <td class="td-booked-room-full-infor td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                  <td class="td-keeping-room td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                  <td class="td-keeping-room td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                  <td class="td-keeping-room td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                  <td class="td-keeping-room td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+              </tr>
+              <tr class="tr-room-infor">
+                 <td class="td-room-infor td-room-name">Junio Tw in 1</td>
+                <td class="td-room-infor td-room-code">A3</td>
+                <td class="td-keeping-room td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                  <td class="td-keeping-room td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                  <td class="td-keeping-room td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                  <td class="td-keeping-room td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                <td class="td-room-infor"></td>
+                  <td class="td-keeping-room td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor"></td>
+                <td class="td-booked-room-full-infor td-room-infor" style="border-left: 0;"></td>
               </tr>
             </tbody>
           </table>

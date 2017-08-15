@@ -15,7 +15,7 @@
   <script src="js/jquery-ui.min.js"></script>
 </head>
 <body>
-  <?php $page = 'faq'; include('header-logged.php') ?>
+  <?php $page = 'faq'; include('header.php') ?>
   <!-- end form -->
   <div class="content">
     <div class="container">

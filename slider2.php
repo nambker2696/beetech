@@ -12,7 +12,6 @@
       <img src="img/2.jpg" alt="">
       <div class="hero">
         <hgroup>
-          <h3>Get start your next awesome project</h3>
         </hgroup>
       </div>
     </div>
@@ -20,7 +19,6 @@
       <img src="img/2.jpg" alt="">
       <div class="hero">        
         <hgroup>
-          <h3>Get start your next awesome project</h3>
         </hgroup>       
       </div>
     </div>
@@ -28,7 +26,6 @@
       <img src="img/2.jpg" alt="">
       <div class="hero">        
         <hgroup>
-          <h3>Get start your next awesome project</h3>
         </hgroup>
       </div>
     </div>

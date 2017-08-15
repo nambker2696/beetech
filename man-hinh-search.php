@@ -73,7 +73,7 @@
 		</div>
 
 
-<!-- 		<section id="show-search">
+	<section id="show-search">
 			<div class="ui container column">
 				<h1 class="ui dividing header">Danh sách tàu</h1>
 				<br>
@@ -124,7 +124,7 @@
 					</tbody>
 				</table>
 			</div>
-		</section> -->
+		</section> 
 	</div>
 	<!-- end content -->
 	<?php include('footer.php'); ?>

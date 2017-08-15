@@ -1,0 +1,38 @@
+.beet-input-login {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #777;;
+  padding: 7px 5px;
+  color: #777;
+}
+.beet-input-login:focus {
+	border-bottom: 1px solid #FF6B3F;
+}
+.beet-form-group {
+	margin-bottom: 26px;
+}
+.beet-form-group label {
+	font-size: 18px;
+	margin-bottom: 10px;
+	color: #777;
+	font-weight: normal;
+}
+.beet-signin {
+	margin-bottom: 45px;
+	color: #777;
+}
+.beet-btn-login {
+	float: right;
+	border-radius: 3px;
+	background: #FF6B3F;
+	height: 40px;
+	color: white;
+	padding: 0 20px;
+	border: 0;
+	box-shadow: 0 1px 10px 0 rgba(0,0,0,.1);
+	outline: none;
+}
+.beet-form-group a {
+	color: #FF6B3F;
+}

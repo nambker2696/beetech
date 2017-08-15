@@ -80,7 +80,6 @@
 
 			</div>
 			<!-- end- col-8 -->
-\
 			<div class="col-md-3 core-sticky-wrapper">
 				<div class="core-sticky-element core-sticky-absolute-top">
 					<div class="product-wrapper-right">
@@ -94,7 +93,7 @@
 									<div class="best-price-heading">
 
 									</div>
-									<div class="best-price-text">
+									<div class="best-price-text" style="padding: 10px 0">
 										Find cheaper? We'll refund twice the difference.
 									</div>
 								</div>
@@ -105,8 +104,8 @@
 										from
 									</div>
 									<div class="listing-price">
-										<div class="final-price-text">
-											VND804387.40
+										<div class="final-price-text" style="line-height: 30px;">
+											800,000VND
 										</div>
 
 									</div>
@@ -126,7 +125,7 @@
 								+33 (1) 85640771
 							</div>
 						</div>
-
+						<div class="share-link-wrapper" data-reactid="752"><div class="share-link-header" data-reactid="753"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80.1 80.1" data-reactid="754"><path d="M48.4 17.9c3.7 2.3 6.3 6.3 6.8 10.8 1.5 0.7 3.2 1.1 5 1.1 6.5 0 11.8-5.3 11.8-11.8 0-6.5-5.3-11.8-11.8-11.8C53.7 6.4 48.5 11.5 48.4 17.9zM40.7 42c6.5 0 11.8-5.3 11.8-11.8s-5.3-11.8-11.8-11.8c-6.5 0-11.8 5.3-11.8 11.8S34.2 42 40.7 42zM45.6 42.8h-10c-8.3 0-15 6.8-15 15v12.2l0 0.2 0.8 0.3c7.9 2.5 14.8 3.3 20.5 3.3 11.1 0 17.5-3.2 17.9-3.4l0.8-0.4h0.1V57.8C60.7 49.5 53.9 42.8 45.6 42.8zM65.1 30.7h-9.9c-0.1 4-1.8 7.5-4.5 10.1 7.4 2.2 12.8 9 12.8 17.1v3.8c9.8-0.4 15.4-3.1 15.8-3.3l0.8-0.4h0.1V45.7C80.1 37.4 73.4 30.7 65.1 30.7zM20 29.9c2.3 0 4.4-0.7 6.3-1.8 0.6-3.8 2.6-7 5.5-9.3 0-0.2 0-0.4 0-0.7 0-6.5-5.3-11.8-11.7-11.8 -6.5 0-11.8 5.3-11.8 11.8C8.3 24.6 13.5 29.9 20 29.9zM30.6 40.7c-2.7-2.6-4.3-6.1-4.5-10 -0.4 0-0.7-0.1-1.1-0.1h-10C6.8 30.7 0 37.4 0 45.7v12.2l0 0.2 0.8 0.3c6.4 2 12 2.9 16.9 3.2v-3.7C17.8 49.8 23.2 42.9 30.6 40.7z" data-reactid="755"></path></svg><div class="share-link-title" data-reactid="756">Share &amp; invite your friends</div></div><div class="share-link-container" data-reactid="757"><div class="link-text-wrapper" data-reactid="758"><div class="link-text" data-reactid="759">https://www.headout.com/tour/3423/france/paris/paris-catacombs-priority-access-guided-tour?utm_source=headout.com&amp;utm_medium=share_button&amp;utm_campaign=EPLL&amp;utm_content=3423</div></div><div type="button" class="link-button" data-reactid="760"><span data-reactid="761">Copy URL</span></div></div></div>
 					</div>
 				</div>
 			</div>

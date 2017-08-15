@@ -17,7 +17,7 @@
   <script src="dist/semantic.min.js"></script>
 </head>
 <body>
-  <?php $page = 'home'; include('header-logged.php') ?>
+  <?php $page = 'home'; include('header.php') ?>
   <div class="slider-warpper">
   <div class="flex__container flex--pikachu flex--active" data-slide="1">
     <div class="flex__item flex__item--left">
