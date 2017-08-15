@@ -1,7 +1,7 @@
 <header id="header" class="" style="    -webkit-box-shadow: 0 1px 10px 0 rgba(0,0,0,.1);">
   <div class="container">
   <!-- Static navbar -->
-  <nav class="navbar" style="min-height: 50px;">
+  <nav class="navbar " style="min-height: 50px;">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="float: left;">

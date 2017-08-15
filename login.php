@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Màn hình đăng nhập</title>
+	<title>Màn hình gía</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/header.css">
@@ -25,8 +25,6 @@
 	<?php include('header.php') ?>
 	<!-- form -->
 	<div class="content">
-		<?php include('breadcrumb.php') ?>
-
 		<div class="container" id="form-login">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3">

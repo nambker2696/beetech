@@ -17,8 +17,8 @@
 </head>
 <body>
   <?php $page = 'price'; include('header-logged.php') ?>
-  <div class="container">
-    <section>
+  <div class="container" style="margin-top: 40px;">
+    <div>
       <div class='pricing pricing-palden'>
         <!-- // select 1 -->
         <div class='pricing-item'>
@@ -38,7 +38,7 @@
             <li class='pricing-feature'>Kiểm tra tình trạng phòng</li>
             <li class='pricing-feature'>Chọn tàu</li>
           </ul>
-          <form action="sau-khi-chon-goi-dich-vu.php" method="POST" accept-charset="utf-8">
+          <form action="sau-khi-chon-goi-dich-vu.php" method="POST" accept-charset="utf-8" style="margin-top: 100px;">
             <button class='pricing-action'>Chọn mua</button>  
           </form>
         </div>
@@ -55,7 +55,7 @@
             <div class='pricing-price'><span class='pricing-currency'>$</span>99
               <span class='pricing-period'>/ mo</span>
             </div>
-            <h3 class='pricing-title'>Agency</h3>
+            <h3 class='pricing-title'>Cruiser</h3>
           </div>
           <ul class='pricing-feature-list'>
             <li class='pricing-feature'>Đặt phòng, giữ phòng, hủy phòng</li>
@@ -82,7 +82,7 @@
             <div class='pricing-price'><span class='pricing-currency'>$</span>59
               <span class='pricing-period'>/ mo</span>
             </div>
-            <h3 class='pricing-title'>Cruiser</h3>
+            <h3 class='pricing-title'>Agency</h3>
           </div>
           <ul class='pricing-feature-list'>
             <li class='pricing-feature'>Đặt phòng, giữ phòng</li>
@@ -95,8 +95,39 @@
           </form> 
         </div>
       </div>
-    </section>
+    </div>
     <section>
+      <table class="table">
+          <thead>
+            <tr>
+              <th class="th-price">MEMBER</th>
+              <th class="th-price">CRUISER</th>
+              <th class="th-price">AGENCY</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="td-price">Chỉ từ USD/ 3 tháng</td>
+              <td class="td-price">Chỉ từ USD/ 3 tháng</td>
+              <td class="td-price">Chỉ từ USD/ 3 tháng</td>
+            </tr>
+            <tr>
+              <td class="td-price">Chỉ từ USD/ 3 tháng</td>
+              <td class="td-price">Chỉ từ USD/ 3 tháng</td>
+              <td class="td-price">Chỉ từ USD/ 3 tháng</td>
+            </tr>
+            <tr>
+              <td class="td-price">Chỉ từ USD/ 3 tháng</td>
+              <td class="td-price">Chỉ từ USD/ 3 tháng</td>
+              <td class="td-price">Chỉ từ USD/ 3 tháng</td>
+            </tr>
+            <tr>
+              <td class="td-price">Chỉ từ USD/ 3 tháng</td>
+              <td class="td-price">Chỉ từ USD/ 3 tháng</td>
+              <td class="td-price">Chỉ từ USD/ 3 tháng</td>
+            </tr>
+          </tbody>
+        </table>
     </section>
   </div>
 </div>

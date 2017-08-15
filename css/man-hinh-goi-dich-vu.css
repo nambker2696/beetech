@@ -7,6 +7,7 @@ section {
 }
 
 .pricing {
+  margin-top: 30px;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-wrap: wrap;
@@ -144,4 +145,12 @@ section {
 
 .pricing-palden .pricing-item--featured .pricing-deco {
   padding: 5em 0 8.885em 0;
+}
+.th-price {
+  text-align: center;
+  border-bottom: 0!important;
+}
+.td-price {
+  text-align: center;
+  border-top: 0!important;
 }

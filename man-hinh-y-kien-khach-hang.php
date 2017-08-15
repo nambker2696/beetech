@@ -25,7 +25,7 @@
         </h1>
       </div>
       <div class="row">
-        <div class="col-md-3" style="margin-top: 50px">
+        <div class="col-md-3" style="margin: 50px 0 70px;">
           <div class="feed-back-form">
             <h3><span>Your feedback</span></h3>
             <form class="form-horizontal" role="form">
