@@ -33,24 +33,18 @@
 	<!-- form -->
 	<div class="content">	
 		<div class="container" style="padding-top: 60px;">
-			<h1 class="page-header">Chào mừng bạn đến với Beetech</h1>
-			<div class="col-md-6 col-sm-6 col-xs-12 personal-info col-md-offset-2" >
-				<form action="man-hinh-hien-thi-member.php" method="POST" class="form-horizontal" role="form">
-					<div class="form-group" id="hello-website">
-						<label id="comment-admin">CHÚC MỪNG ANNIE ĐÃ KHỞI TẠO TÀI KHOẢN THÀNH CÔNG.<br>
-							XIN VUI LÒNG ĐĂNG NHẬP ĐỂ TIẾP TỤC<br>
-						</label>
-					</div>
-					<div class="form-group">
-						<label class="col-md-3 control-label"></label>
-						<div class="col-md-6">
-							<input class="btn btn-primary" value="Đăng nhập" type="submit">
-							<span></span>
-						</div>
-					</div>
+			<h1 class="" style="font-size: 5rem;color: #777;margin-bottom: 40px;margin-left: 160px;">Welcome to Bee</h1>
 
-				</form>
-			</div>
+			<div class="col-md-6 col-sm-6 col-xs-12 personal-info col-md-offset-2" >
+				<div class=""  style="position: relative; color: #777">
+					<div>
+						<h3 style="margin-bottom: 0;text-align: right;font-size: 19px;"><span>Beetect Cruise is a website to manager<br>
+						room in your cruise.....</span>  </h3>
+		    	</div>
+	    	</div>
+	    	<div style="text-align: right;margin-top: 20px;" >
+		    	<a style="color: #FF6B3F;padding-bottom: 10px;border-bottom: 1px solid #FF6B3F;font-size: 17px;" href="man-hinh-hien-thi-chu-tau.php">Continue</a>
+	    	</div>
 		</div>
 	</div>
 	<!-- end Content -->

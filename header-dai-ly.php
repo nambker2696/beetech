@@ -4,7 +4,7 @@
   <nav class="navbar" style="min-height: 50px;">
     <div class="container-fluid">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="float: left;">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="float: left;background-color: none;">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -27,10 +27,10 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img class="icon-avatar" src="https://avatars0.githubusercontent.com/u/25922489?v=4&s=460">
             </a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Thông tin</a></li>
-              <li><a href="#">Chỉnh sửa</a></li>
-              <li><a href="#">Thoát</a></li>
+            <ul class="dropdown-menu dropdown-menu-right" style="border: 0">
+              <li><a href="#" style="padding: 10px 15px!important;">Thông tin</a></li>
+              <li><a href="#" style="padding: 10px 15px!important;">Chỉnh sửa</a></li>
+              <li><a href="#" style="padding: 10px 15px!important;">Thoát</a></li>
             </ul>
           </li>
         </ul>

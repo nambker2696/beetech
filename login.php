@@ -33,7 +33,7 @@
 						<!-- form login -->
 						<div class="panel-body">
 							<div class="tab-content">
-								<form action="chon-goi-dich-vu.php" method="POST" accept-charset="utf-8">
+								<form action="man-hinh-chao-mung-member.php" method="POST" accept-charset="utf-8">
 									
 									<div  class="tab-pane fade in active register">
 										<div class="container-fluid">

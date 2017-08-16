@@ -6,6 +6,7 @@
   <title>Màn hình đăng nhập</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile/style.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/home.css">
   <link rel="stylesheet"  href="css/man-hinh-goi-dich-vu.css">
