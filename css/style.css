@@ -23,6 +23,21 @@ body, html {
 #content-footer{
 	padding-bottom: 50px;
 }
+.footer-alert-container {
+    height: 200px;
+    display: flex;
+    width: 100%;
+    -webkit-box-shadow: 0 2px 20px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 2px 20px rgba(0,0,0,.2);
+    box-shadow: 0 2px 20px rgba(0,0,0,.2);
+    background-color: dimgrey;
+}
+.footer-alert-container .row .col-md-6 h3{
+  color: white; 
+}
+.footer-alert-container .row .col-md-6 ul li a{
+  color: white;
+}
 /*slide bst*/
 /********************************/
 /*       Fade Bs-carousel       */
@@ -67,6 +82,10 @@ body, html {
   width: 10px;
   height: 10px;
   opacity: 1;
+}
+#join-us{
+  margin-top: 100px;
+  margin-left: 200px;
 }
 
 /********************************/

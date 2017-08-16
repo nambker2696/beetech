@@ -85,6 +85,7 @@
 
 
 			<h1>Du lịch Việt Nam</h1>
+			<a href="#" title="">View all</a>
 			<hr class="core-section-underline" data-reactid="1686">
 			<div class="row" id="second">
 				<?php include('content-home.php') ?>
@@ -92,6 +93,7 @@
 		</div>
 		<div class="container" id="content-city">
 			<h1>Các thành phố đẹp</h1>
+			<a href="#" title="">View all</a>
 			<hr class="core-section-underline" data-reactid="1686">
 			<?php include('city-content.php') ?>
 		</div>
